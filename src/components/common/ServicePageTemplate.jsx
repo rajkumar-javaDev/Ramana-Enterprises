@@ -6,30 +6,43 @@ import SEO from './SEO';
 import LightboxModal from './LightboxModal';
 import { businessInfo } from '../../data/businessInfo';
 import { servicesData } from '../../data/servicesData';
-import { locationsData } from '../../data/locationsData';
+import { locationsData, priorityTargetLocations } from '../../data/locationsData';
 import serviceImagesManifest from '../../data/serviceImagesManifest.json';
 import Testimonials from '../sections/Testimonials';
 
 export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
-  if (!service) return null;
-
   const [openFaqIdx, setOpenFaqIdx] = useState(0);
-  const [activeImgIdx, setActiveImgIdx] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIdx, setLightboxIdx] = useState(0);
 
-  const manifestData = serviceImagesManifest[service.slug] || serviceImagesManifest[service.id] || {};
-  const serviceImages = (manifestData.images && manifestData.images.length > 0)
-    ? manifestData.images
-    : [{ url: service.image, thumbUrl: service.image, alt: `${service.title} in Bangalore`, index: 1 }];
+  if (!service) return null;
 
-  const currentDisplayImg = serviceImages[activeImgIdx] || serviceImages[0];
+  const manifestData = serviceImagesManifest[service.slug] || serviceImagesManifest[service.id] || {};
+  const heroImgObj = {
+    url: service.image,
+    thumbUrl: service.image,
+    alt: `${service.title} in Hosapete & Karnataka`,
+    index: 0
+  };
+  const galleryImages = (manifestData.images && manifestData.images.length > 0)
+    ? manifestData.images.filter((img) => img.url !== service.image)
+    : [];
+  const allLightboxImages = [heroImgObj, ...galleryImages];
+  const currentDisplayImg = heroImgObj;
 
   const otherServices = servicesData.filter(s => s.slug !== service.slug).slice(0, 3);
-  const popularLocations = locationsData.slice(0, 12);
+  const popularLocations = priorityTargetLocations;
+  const serviceSeoKeywords = priorityTargetLocations
+    .map(loc => `${service.title} in ${loc.name}`)
+    .concat([
+      `Best ${service.title} in Hosapete`,
+      `${service.title} Near Me in Hospet`,
+      `${service.title} Installation in Ballari Koppal Hubballi Bengaluru`,
+      `${service.title} Price Per Sq Ft`
+    ]);
 
   const substrates = [
-    { name: "RCC Concrete Beams / Slabs", status: "Optimal", method: "6mm Hammer drill + 304/316 SS expansion anchor hooks with weatherproof silicone seal." },
+    { name: "RCC Concrete Beams / Slabs", status: "Optimal", method: "6mm Hammer drill + rust-proof stainless steel expansion anchor hooks with weatherproof silicone seal." },
     { name: "Solid Brick / Masonry", status: "Approved", method: "High-grade nylon wall plugs with continuous stainless perimeter guide wire lacing." },
     { name: "Structural Steel / MS Railings", status: "Approved", method: "Non-corrosive stainless steel clamps or welded eyelet fasteners with anti-rust primer." },
     { name: "Polished Wood / Banisters", status: "Approved", method: "Non-invasive high-tensile nylon binding straps or concealed rubberized bracket clamps." },
@@ -52,29 +65,33 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
   return (
     <>
       <SEO
-        title={`${service.title} in Bangalore | Technical Specs & Free Survey`}
-        description={`${service.shortDescription} Genuine Garware materials, up to 10 years warranty, same-day doorstep measurement across Bangalore. Call ${businessInfo.phone}.`}
+        title={`${service.title} in Hosapete (Hospet), Ballari, Koppal, Hubballi, Bengaluru & Karnataka`}
+        description={`${service.shortDescription} #1 ${service.title} installation in Hosapete, Hampi, Kamalapura, Munirabad, Toranagallu, Sandur, Gangavathi, Koppal, Ballari, Hubballi, Dharwad, Bengaluru & Karnataka. Call ${businessInfo.phone}.`}
+        keywords={serviceSeoKeywords.join(', ')}
         canonicalUrl={`/services/${service.slug}`}
         schema={{
           "@context": "https://schema.org",
           "@type": "Service",
-          "name": service.title,
+          "name": `${service.title} in Hosapete, Ballari, Koppal, Hubballi, Bengaluru & Karnataka`,
           "category": service.category || "Safety Netting",
           "provider": {
             "@type": "LocalBusiness",
             "name": businessInfo.name,
             "telephone": businessInfo.phone,
-            "image": `https://www.ramanasafetynets.com${currentDisplayImg.url}`,
+            "image": `https://www.raghavisafetynets.com${currentDisplayImg.url}`,
             "address": {
               "@type": "PostalAddress",
               "streetAddress": businessInfo.address.street,
-              "addressLocality": businessInfo.address.city,
-              "addressRegion": businessInfo.address.state,
+              "addressLocality": "Hosapete (Hospet)",
+              "addressRegion": "Karnataka",
               "postalCode": businessInfo.address.pincode,
               "addressCountry": "IN"
             }
           },
-          "areaServed": "Bangalore",
+          "areaServed": popularLocations.map(l => ({
+            "@type": "City",
+            "name": l.name
+          })),
           "description": service.shortDescription
         }}
       />
@@ -101,12 +118,12 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
             >
               {/* Main Active Image with Zoom on Click */}
               <div
-                onClick={() => handleOpenLightbox(activeImgIdx)}
+                onClick={() => handleOpenLightbox(0)}
                 className="group relative w-full h-[300px] sm:h-[400px] lg:h-[460px] rounded-3xl overflow-hidden shadow-soft-xl border border-slate-200 bg-slate-100 cursor-pointer"
               >
                 <img
                   src={currentDisplayImg.url}
-                  alt={currentDisplayImg.alt || `${service.title} installation in Bangalore`}
+                  alt={currentDisplayImg.alt || `${service.title} installation in Hosapete & Karnataka`}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="eager"
                   decoding="async"
@@ -127,34 +144,9 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
                 {/* Bottom-right Survey Badge */}
                 <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur-md px-4 py-2 rounded-2xl text-slate-950 border border-white/80 text-xs font-semibold shadow-soft-md">
                   <span className="text-gold-600 font-bold block">100% Free Doorstep Survey</span>
-                  <span className="text-[10px] text-slate-500">Same-Day Installation in Bangalore</span>
+                  <span className="text-[10px] text-slate-500">Same-Day in Hosapete, Ballari, Hubballi & Bengaluru</span>
                 </div>
               </div>
-
-              {/* Thumbnails Row (if multiple images available) */}
-              {serviceImages.length > 1 && (
-                <div className="flex items-center gap-2 overflow-x-auto pb-1 pt-1 scrollbar-none">
-                  {serviceImages.map((img, idx) => (
-                    <button
-                      key={idx}
-                      onClick={() => setActiveImgIdx(idx)}
-                      className={`relative flex-shrink-0 w-16 sm:w-20 h-14 sm:h-16 rounded-xl overflow-hidden border-2 transition-all cursor-pointer ${
-                        activeImgIdx === idx
-                          ? 'border-emerald-600 ring-2 ring-emerald-600/30 scale-105'
-                          : 'border-slate-200 opacity-70 hover:opacity-100 hover:border-slate-300'
-                      }`}
-                      aria-label={`View photo angle ${idx + 1}`}
-                    >
-                      <img
-                        src={img.thumbUrl || img.url}
-                        alt={`Thumbnail ${idx + 1}`}
-                        className="w-full h-full object-cover"
-                        loading="lazy"
-                      />
-                    </button>
-                  ))}
-                </div>
-              )}
             </motion.div>
 
             {/* Content Second */}
@@ -175,8 +167,8 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
                 )}
               </div>
 
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight">
-                {service.title} in Bangalore
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#00274c] tracking-tight leading-tight">
+                {service.title} in <span className="text-[#21893c]">Hosapete, Ballari, Hubballi, Bengaluru & Karnataka</span>
               </h1>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
                 {service.fullDescription || service.shortDescription}
@@ -204,7 +196,7 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
                   <span>Call Expert</span>
                 </a>
                 <a
-                  href={`https://wa.me/${businessInfo.whatsappNumber}?text=${encodeURIComponent(`Hi Ramana Safety Nets! I want a free survey for ${service.title}.`)}`}
+                  href={`https://wa.me/${businessInfo.whatsappNumber}?text=${encodeURIComponent(`Hi Raghavi Enterprises! I want a free survey for ${service.title}.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-1.5 px-4 py-3.5 rounded-2xl text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-700 shadow-soft-md transition-all active:scale-95"
@@ -356,7 +348,7 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
       </section>
 
       {/* Dedicated Real Project Installation Gallery Showcase */}
-      {serviceImages.length > 0 && (
+      {galleryImages.length > 0 && (
         <section className="py-16 bg-slate-50/70 border-b border-slate-200/80">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
@@ -365,7 +357,7 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
                   Verified Project Showcase
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-950">
-                  Recent {service.title} Project Gallery in Bangalore
+                  Recent {service.title} Project Gallery in Hosapete, Ballari & Karnataka
                 </h2>
                 <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-2xl">
                   Actual on-site installation photographs showing anchor detailing, neat tensioning, and aesthetic high-rise containment.
@@ -373,22 +365,22 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
               </div>
               <div className="text-xs font-semibold text-slate-600 bg-white px-4 py-2.5 rounded-2xl border border-slate-200 shadow-soft-xs w-fit flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                <span>Showing <strong className="text-slate-950 font-bold">{serviceImages.length} High-Res Photos</strong></span>
+                <span>Showing <strong className="text-slate-950 font-bold">{galleryImages.length} High-Res Photos</strong></span>
               </div>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-              {serviceImages.map((img, idx) => (
+              {galleryImages.map((img, idx) => (
                 <motion.div
                   key={idx}
                   whileHover={{ y: -4 }}
                   transition={{ duration: 0.2 }}
-                  onClick={() => handleOpenLightbox(idx)}
+                  onClick={() => handleOpenLightbox(idx + 1)}
                   className="group relative rounded-2xl sm:rounded-3xl overflow-hidden aspect-[4/3] bg-white border border-slate-200 shadow-soft-sm hover:shadow-soft-xl transition-all cursor-pointer"
                 >
                   <img
-                    src={img.thumbUrl || img.url}
-                    alt={img.alt || `${service.title} Bangalore installation angle ${idx + 1}`}
+                    src={img.url}
+                    alt={img.alt || `${service.title} installation angle ${idx + 1}`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
@@ -509,26 +501,37 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
 
       {/* Serving Locations Bar */}
       <section className="py-12 bg-white border-b border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-6">
-            <h3 className="text-lg font-bold text-slate-950">We Install {service.title} Across Bangalore</h3>
-            <p className="text-xs text-slate-500">Same-day doorstep measurement available in all key zones</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+          <div className="text-center">
+            <span className="inline-block text-[11px] font-extrabold uppercase tracking-wider text-[#21893c] bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200 mb-2">
+              Priority Regional Coverage
+            </span>
+            <h3 className="text-xl sm:text-2xl font-extrabold text-[#00274c]">
+              We Install {service.title} in Hosapete (Hospet), Vijayanagara, Ballari, Koppal, Hubballi, Bengaluru & All Karnataka
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-500 mt-1">
+              Click your city or town below for same-day doorstep survey & installation of {service.title}
+            </p>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             {popularLocations.map(loc => (
               <Link
                 key={loc.slug}
                 to={`/location/${loc.slug}`}
-                className="px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold text-slate-700 hover:text-slate-950 hover:border-slate-300 transition-all shadow-soft-sm"
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shadow-soft-sm ${
+                  loc.region === 'Hosapete Priority Zone'
+                    ? 'bg-[#00274c] text-white hover:bg-[#21893c]'
+                    : 'bg-slate-50 border border-slate-200 text-slate-700 hover:text-[#00274c] hover:border-blue-300'
+                }`}
               >
-                {loc.name}
+                {service.title} in {loc.name}
               </Link>
             ))}
             <Link
               to="/locations"
-              className="px-3 py-1.5 bg-emerald-50 border border-emerald-200 text-emerald-700 rounded-xl text-xs font-bold hover:bg-emerald-100 transition-all"
+              className="px-3.5 py-1.5 bg-[#21893c] text-white rounded-xl text-xs font-extrabold hover:bg-[#196d2f] transition-all"
             >
-              View All 40+ Locations →
+              View All 70+ Locations →
             </Link>
           </div>
         </div>
@@ -572,7 +575,7 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
       <LightboxModal
         isOpen={lightboxOpen}
         onClose={() => setLightboxOpen(false)}
-        items={serviceImages.map((img, idx) => ({
+        items={allLightboxImages.map((img, idx) => ({
           image: img.url,
           title: `${service.title} - Installation Photo ${idx + 1}`,
           category: service.category || "Safety Solutions",

@@ -23,15 +23,15 @@ export default function AboutPage() {
   return (
     <>
       <SEO
-        title="About Ramana Safety Nets | 12+ Years of Safety Engineering in Bangalore"
-        description="Learn about Ramana Safety Nets - Bangalore's most trusted name in safety nets and invisible grills. Authentic Garware HDPE materials, 15,000+ completed projects."
+        title="About Raghavi Enterprises | 12+ Years of Safety Engineering in Bangalore"
+        description="Learn about Raghavi Enterprises - Bangalore's most trusted name in safety nets and invisible grills. Authentic Garware HDPE materials, 15,000+ completed projects."
         canonicalUrl="/about"
         schema={{
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": businessInfo.name,
-          "url": "https://www.ramanasafetynets.com",
-          "logo": "https://www.ramanasafetynets.com/assets/ramana-logo.png",
+          "url": "https://www.raghavisafetynets.com",
+          "logo": "https://www.raghavisafetynets.com/assets/raghavi-logo.png",
           "foundingDate": "2012",
           "telephone": businessInfo.phone,
           "address": {
@@ -51,7 +51,7 @@ export default function AboutPage() {
           <SectionHeader
             badgeText="Our Heritage & Trust"
             title="Safeguarding Homes & Families Across Bangalore Since 2012"
-            subtitle="Ramana Safety Nets was founded with a single mission: to provide the highest-grade, certified fall prevention and bird exclusion netting systems with absolute transparency and uncompromised craftsmanship."
+            subtitle="Raghavi Enterprises was founded with a single mission: to provide the highest-grade, certified fall prevention and bird exclusion netting systems with absolute transparency and uncompromised craftsmanship."
           />
 
           {/* Milestones Stats Grid */}
@@ -87,8 +87,8 @@ export default function AboutPage() {
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-soft-xl border border-slate-200 aspect-[4/3] bg-slate-100">
                 <img
-                  src="/assets/services/balcony-safety-nets/hero.webp"
-                  alt="Ramana Safety Nets Certified High-Rise Safety Net Installation in Bangalore"
+                  src="/assets/services/anti-bird-nets/img-5.webp"
+                  alt="Raghavi Enterprises Certified High-Rise Safety Net Installation in Hosapete & Karnataka"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
@@ -107,7 +107,7 @@ export default function AboutPage() {
                 Why Thousands of High-Rise Residents Choose Us
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                In a market filled with counterfeit nylon cords and substandard hardware, Ramana Safety Nets strictly enforces original <strong>Garware High-Density Polyethylene</strong> netting and <strong>AISI 304/316 marine-grade stainless steel</strong> anchors.
+                In a market filled with counterfeit nylon cords and substandard hardware, Raghavi Enterprises strictly enforces original <strong>Garware High-Density Polyethylene</strong> netting and <strong>rust-proof marine-grade stainless steel</strong> anchors.
               </p>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
                 Every member of our installation crew is certified in rope-access and high-altitude rigging, ensuring zero safety incidents during execution and lifetime structural stability for your balcony.

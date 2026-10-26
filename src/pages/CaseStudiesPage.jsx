@@ -16,7 +16,7 @@ export default function CaseStudiesPage() {
   return (
     <>
       <SEO
-        title="Documented Case Studies & Engineering Outcomes | Ramana Safety Nets"
+        title="Documented Case Studies & Engineering Outcomes | Raghavi Enterprises"
         description="Verified case studies covering residential pigeon exclusion, high-rise luxury invisible grills, IS 11057 certified construction fall arrest, and warehouse rack netting in Bangalore."
         canonicalUrl="/case-studies"
       />

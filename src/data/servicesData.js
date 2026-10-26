@@ -833,7 +833,7 @@ export const servicesData = [
     iconName: "ShieldCheck",
     features: [
       "High-Tension Water Surface Barrier Restricting Accidental Toddler Access",
-      "Flushed 316 Stainless Steel / Brass Deck Anchors (Zero Trip Hazard)",
+      "Flushed Rust-Proof Stainless Steel / Brass Deck Anchors (Zero Trip Hazard)",
       "High-Strength Polyethylene Cords Treated Against Pool Chlorine & UV",
       "Central Ratchet Tensioning System for Easy One-Person Operation",
       "Supports Body Weight Above Waterline in Emergency Accidental Drops",
@@ -862,19 +862,19 @@ export const servicesData = [
   {
     id: "invisible-grills",
     slug: "invisible-grills",
-    title: "316 SS Invisible Grills",
+    title: "Invisible Grills",
     category: "Modern Cable Barriers",
     safetyClass: "Tensioned Cable Barrier",
     canMarketAsFallProtection: "No (Balcony & window barrier; not a certified industrial fall-arrest system)",
-    mainTechnicalConcern: "Marine-grade SS316 verification, track rigidity, cable tension (140kg+), vertical orientation (no ladder effect)",
+    mainTechnicalConcern: "High-tensile invisible grill verification, track rigidity, cable tension (140kg+), vertical orientation (no ladder effect)",
     standards: ["IS 13415:1992", "Emergency Egress Fire Safety Norms"],
-    shortDescription: "Ultra-luxurious 316 marine-grade stainless steel cable invisible grills offering panoramic skyline views and uncompromised balcony safety.",
-    fullDescription: "Upgrade your balcony safety with modern 316 Marine-Grade Stainless Steel Invisible Grills. Encased in high-grade nylon coating, these 2mm / 3mm high-tensile steel cables replace bulky iron grills, giving your home an unhindered panoramic view while keeping children and pets completely safe.",
+    shortDescription: "Ultra-luxurious high-tensile stainless steel cable invisible grills offering panoramic skyline views and uncompromised balcony safety.",
+    fullDescription: "Upgrade your balcony safety with modern Modern high-tensile invisible grills. Encased in high-grade nylon coating, these 2mm / 3mm high-tensile steel cables replace bulky iron grills, giving your home an unhindered panoramic view while keeping children and pets completely safe.",
     image: "/assets/services/invisible-grills/hero.webp",
     warranty: "10 Years Official Warranty",
     iconName: "Grid",
     features: [
-      "Authentic 316 Marine-Grade Stainless Steel Wire Core",
+      "Authentic High-Tensile Stainless Steel Wire Core",
       "Tough Transparent Nylon Coating Prevents Hand Cuts & Scratches",
       "Supports 140kg Tensile Breaking Load Per Cable Strand",
       "Available in 2-inch, 3-inch, or 4-inch Vertical Cable Spacing",
@@ -882,7 +882,7 @@ export const servicesData = [
       "Enhances Apartment Elevation & Property Resale Value"
     ],
     specs: {
-      material: "316 Grade Stainless Steel Core + Nylon Coating",
+      material: "High-Tensile Stainless Steel Core + Nylon Coating",
       cableGap: "50mm (2 in) / 75mm (3 in) / 100mm (4 in)",
       cableThickness: "2.0mm / 2.5mm / 3.0mm diameter",
       breakingLoad: "140 kg tension per individual cable",

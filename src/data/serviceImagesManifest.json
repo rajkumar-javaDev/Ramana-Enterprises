@@ -1,7 +1,7 @@
 {
   "nylon-safety-nets": {
     "hero": "/assets/services/nylon-safety-nets/hero.webp",
-    "heroAlt": "High-tenacity nylon safety net installation with reinforced border rope in Bangalore - Professional installation by Ramana Safety Nets",
+    "heroAlt": "High-tenacity nylon safety net installation with reinforced border rope in Bangalore - Professional installation by Raghavi Enterprises",
     "images": [
       {
         "url": "/assets/services/nylon-safety-nets/img-1.webp",
@@ -63,7 +63,7 @@
   },
   "balcony-safety-nets": {
     "hero": "/assets/services/balcony-safety-nets/hero.webp",
-    "heroAlt": "UV-resistant balcony safety netting protecting high-rise apartment in Bangalore - Professional installation by Ramana Safety Nets",
+    "heroAlt": "UV-resistant balcony safety netting protecting high-rise apartment in Bangalore - Professional installation by Raghavi Enterprises",
     "images": [
       {
         "url": "/assets/services/balcony-safety-nets/img-1.webp",
@@ -80,424 +80,228 @@
         "index": 2
       },
       {
-        "url": "/assets/services/balcony-safety-nets/img-3.webp",
-        "thumbUrl": "/assets/services/balcony-safety-nets/thumb-3.webp",
-        "alt": "UV-resistant balcony safety netting protecting high-rise apartment in Bangalore - Verified Clean Angle 3",
-        "originalFolder": "Balcony Safety Nets",
-        "index": 3
-      },
-      {
-        "url": "/assets/services/balcony-safety-nets/img-4.webp",
-        "thumbUrl": "/assets/services/balcony-safety-nets/thumb-4.webp",
-        "alt": "UV-resistant balcony safety netting protecting high-rise apartment in Bangalore - Verified Clean Angle 4",
-        "originalFolder": "balcony safety net",
-        "index": 4
-      },
-      {
         "url": "/assets/services/balcony-safety-nets/img-5.webp",
         "thumbUrl": "/assets/services/balcony-safety-nets/thumb-5.webp",
         "alt": "UV-resistant balcony safety netting protecting high-rise apartment in Bangalore - Verified Clean Angle 5",
         "originalFolder": "Balcony Safety Nets",
-        "index": 5
-      },
-      {
-        "url": "/assets/services/balcony-safety-nets/img-6.webp",
-        "thumbUrl": "/assets/services/balcony-safety-nets/thumb-6.webp",
-        "alt": "UV-resistant balcony safety netting protecting high-rise apartment in Bangalore - Verified Clean Angle 6",
-        "originalFolder": "balcony safety net",
-        "index": 6
-      },
-      {
-        "url": "/assets/services/balcony-safety-nets/img-7.webp",
-        "thumbUrl": "/assets/services/balcony-safety-nets/thumb-7.webp",
-        "alt": "UV-resistant balcony safety netting protecting high-rise apartment in Bangalore - Verified Clean Angle 7",
-        "originalFolder": "Balcony Safety Nets",
-        "index": 7
-      },
-      {
-        "url": "/assets/services/balcony-safety-nets/img-8.webp",
-        "thumbUrl": "/assets/services/balcony-safety-nets/thumb-8.webp",
-        "alt": "UV-resistant balcony safety netting protecting high-rise apartment in Bangalore - Verified Clean Angle 8",
-        "originalFolder": "balcony safety net",
-        "index": 8
+        "index": 3
       }
     ]
   },
   "children-safety-nets": {
     "hero": "/assets/services/children-safety-nets/hero.webp",
-    "heroAlt": "Toddler and child safety net installed on open apartment balcony - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Toddler and child safety net installed on open apartment balcony - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/children-safety-nets/img-1.webp",
-        "thumbUrl": "/assets/services/children-safety-nets/thumb-1.webp",
-        "alt": "Toddler and child safety net installed on open apartment balcony - Verified Clean Angle 1",
-        "originalFolder": "Children Safety Nets",
-        "index": 1
-      },
       {
         "url": "/assets/services/children-safety-nets/img-2.webp",
         "thumbUrl": "/assets/services/children-safety-nets/thumb-2.webp",
         "alt": "Toddler and child safety net installed on open apartment balcony - Verified Clean Angle 2",
         "originalFolder": "Children Safety Nets",
-        "index": 2
-      },
-      {
-        "url": "/assets/services/children-safety-nets/img-3.webp",
-        "thumbUrl": "/assets/services/children-safety-nets/thumb-3.webp",
-        "alt": "Toddler and child safety net installed on open apartment balcony - Verified Clean Angle 3",
-        "originalFolder": "Children Safety Nets",
-        "index": 3
+        "index": 1
       },
       {
         "url": "/assets/services/children-safety-nets/img-4.webp",
         "thumbUrl": "/assets/services/children-safety-nets/thumb-4.webp",
         "alt": "Toddler and child safety net installed on open apartment balcony - Verified Clean Angle 4",
         "originalFolder": "Children Safety Nets",
-        "index": 4
+        "index": 2
       },
       {
         "url": "/assets/services/children-safety-nets/img-5.webp",
         "thumbUrl": "/assets/services/children-safety-nets/thumb-5.webp",
         "alt": "Toddler and child safety net installed on open apartment balcony - Verified Clean Angle 5",
         "originalFolder": "Children Safety Nets",
-        "index": 5
+        "index": 3
       },
       {
         "url": "/assets/services/children-safety-nets/img-6.webp",
         "thumbUrl": "/assets/services/children-safety-nets/thumb-6.webp",
         "alt": "Toddler and child safety net installed on open apartment balcony - Verified Clean Angle 6",
         "originalFolder": "Children Safety Nets",
-        "index": 6
-      },
-      {
-        "url": "/assets/services/children-safety-nets/img-7.webp",
-        "thumbUrl": "/assets/services/children-safety-nets/thumb-7.webp",
-        "alt": "Toddler and child safety net installed on open apartment balcony - Verified Clean Angle 7",
-        "originalFolder": "Children Safety Nets",
-        "index": 7
+        "index": 4
       },
       {
         "url": "/assets/services/children-safety-nets/img-8.webp",
         "thumbUrl": "/assets/services/children-safety-nets/thumb-8.webp",
         "alt": "Toddler and child safety net installed on open apartment balcony - Verified Clean Angle 8",
         "originalFolder": "Children Safety Nets",
-        "index": 8
+        "index": 5
       }
     ]
   },
   "anti-bird-nets": {
     "hero": "/assets/services/anti-bird-nets/hero.webp",
-    "heroAlt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/anti-bird-nets/img-1.webp",
-        "thumbUrl": "/assets/services/anti-bird-nets/thumb-1.webp",
-        "alt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Verified Clean Angle 1",
-        "originalFolder": "Anti Bird Nets",
-        "index": 1
-      },
-      {
-        "url": "/assets/services/anti-bird-nets/img-2.webp",
-        "thumbUrl": "/assets/services/anti-bird-nets/thumb-2.webp",
-        "alt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Verified Clean Angle 2",
-        "originalFolder": "Pond Bird Protection Nets",
-        "index": 2
-      },
       {
         "url": "/assets/services/anti-bird-nets/img-3.webp",
         "thumbUrl": "/assets/services/anti-bird-nets/thumb-3.webp",
         "alt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Verified Clean Angle 3",
         "originalFolder": "Pond Bird Protection Nets",
-        "index": 3
-      },
-      {
-        "url": "/assets/services/anti-bird-nets/img-4.webp",
-        "thumbUrl": "/assets/services/anti-bird-nets/thumb-4.webp",
-        "alt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Verified Clean Angle 4",
-        "originalFolder": "Agricultural Bird Nets",
-        "index": 4
+        "index": 1
       },
       {
         "url": "/assets/services/anti-bird-nets/img-5.webp",
         "thumbUrl": "/assets/services/anti-bird-nets/thumb-5.webp",
         "alt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Verified Clean Angle 5",
         "originalFolder": "Pond Bird Protection Nets",
-        "index": 5
+        "index": 2
       },
       {
         "url": "/assets/services/anti-bird-nets/img-6.webp",
         "thumbUrl": "/assets/services/anti-bird-nets/thumb-6.webp",
         "alt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Verified Clean Angle 6",
         "originalFolder": "Warehouse Bird Protection Nets",
-        "index": 6
-      },
-      {
-        "url": "/assets/services/anti-bird-nets/img-7.webp",
-        "thumbUrl": "/assets/services/anti-bird-nets/thumb-7.webp",
-        "alt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Verified Clean Angle 7",
-        "originalFolder": "Agricultural Bird Nets",
-        "index": 7
+        "index": 3
       },
       {
         "url": "/assets/services/anti-bird-nets/img-8.webp",
         "thumbUrl": "/assets/services/anti-bird-nets/thumb-8.webp",
         "alt": "Transparent anti-bird netting preventing pigeons and birds on window ledge - Verified Clean Angle 8",
         "originalFolder": "Warehouse Bird Protection Nets",
-        "index": 8
+        "index": 4
       }
     ]
   },
   "bird-protection-nets": {
     "hero": "/assets/services/bird-protection-nets/hero.webp",
-    "heroAlt": "Heavy-duty bird protection netting installed on residential facade - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Heavy-duty bird protection netting installed on residential facade - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/bird-protection-nets/img-1.webp",
-        "thumbUrl": "/assets/services/bird-protection-nets/thumb-1.webp",
-        "alt": "Heavy-duty bird protection netting installed on residential facade - Verified Clean Angle 1",
-        "originalFolder": "Bird Protection Nets",
-        "index": 1
-      },
       {
         "url": "/assets/services/bird-protection-nets/img-2.webp",
         "thumbUrl": "/assets/services/bird-protection-nets/thumb-2.webp",
         "alt": "Heavy-duty bird protection netting installed on residential facade - Verified Clean Angle 2",
         "originalFolder": "Bird Protection Nets",
-        "index": 2
-      },
-      {
-        "url": "/assets/services/bird-protection-nets/img-3.webp",
-        "thumbUrl": "/assets/services/bird-protection-nets/thumb-3.webp",
-        "alt": "Heavy-duty bird protection netting installed on residential facade - Verified Clean Angle 3",
-        "originalFolder": "Bird Protection Nets",
-        "index": 3
-      },
-      {
-        "url": "/assets/services/bird-protection-nets/img-4.webp",
-        "thumbUrl": "/assets/services/bird-protection-nets/thumb-4.webp",
-        "alt": "Heavy-duty bird protection netting installed on residential facade - Verified Clean Angle 4",
-        "originalFolder": "Bird Protection Nets",
-        "index": 4
-      },
-      {
-        "url": "/assets/services/bird-protection-nets/img-5.webp",
-        "thumbUrl": "/assets/services/bird-protection-nets/thumb-5.webp",
-        "alt": "Heavy-duty bird protection netting installed on residential facade - Verified Clean Angle 5",
-        "originalFolder": "Bird Protection Nets",
-        "index": 5
+        "index": 1
       },
       {
         "url": "/assets/services/bird-protection-nets/img-6.webp",
         "thumbUrl": "/assets/services/bird-protection-nets/thumb-6.webp",
         "alt": "Heavy-duty bird protection netting installed on residential facade - Verified Clean Angle 6",
         "originalFolder": "Bird Protection Nets",
-        "index": 6
-      },
-      {
-        "url": "/assets/services/bird-protection-nets/img-7.webp",
-        "thumbUrl": "/assets/services/bird-protection-nets/thumb-7.webp",
-        "alt": "Heavy-duty bird protection netting installed on residential facade - Verified Clean Angle 7",
-        "originalFolder": "Bird Protection Nets",
-        "index": 7
-      },
-      {
-        "url": "/assets/services/bird-protection-nets/img-8.webp",
-        "thumbUrl": "/assets/services/bird-protection-nets/thumb-8.webp",
-        "alt": "Heavy-duty bird protection netting installed on residential facade - Verified Clean Angle 8",
-        "originalFolder": "Bird Protection Nets",
-        "index": 8
+        "index": 2
       }
     ]
   },
   "pigeon-safety-nets": {
     "hero": "/assets/services/pigeon-safety-nets/hero.webp",
-    "heroAlt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/pigeon-safety-nets/img-1.webp",
-        "thumbUrl": "/assets/services/pigeon-safety-nets/thumb-1.webp",
-        "alt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Verified Clean Angle 1",
-        "originalFolder": "Pigeon Safety Nets",
-        "index": 1
-      },
       {
         "url": "/assets/services/pigeon-safety-nets/img-2.webp",
         "thumbUrl": "/assets/services/pigeon-safety-nets/thumb-2.webp",
         "alt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Verified Clean Angle 2",
         "originalFolder": "Pigeon Safety Nets",
-        "index": 2
-      },
-      {
-        "url": "/assets/services/pigeon-safety-nets/img-3.webp",
-        "thumbUrl": "/assets/services/pigeon-safety-nets/thumb-3.webp",
-        "alt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Verified Clean Angle 3",
-        "originalFolder": "Pigeon Safety Nets",
-        "index": 3
+        "index": 1
       },
       {
         "url": "/assets/services/pigeon-safety-nets/img-4.webp",
         "thumbUrl": "/assets/services/pigeon-safety-nets/thumb-4.webp",
         "alt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Verified Clean Angle 4",
         "originalFolder": "Pigeon Safety Nets",
-        "index": 4
+        "index": 2
       },
       {
         "url": "/assets/services/pigeon-safety-nets/img-5.webp",
         "thumbUrl": "/assets/services/pigeon-safety-nets/thumb-5.webp",
         "alt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Verified Clean Angle 5",
         "originalFolder": "Pigeon Safety Nets",
-        "index": 5
+        "index": 3
       },
       {
         "url": "/assets/services/pigeon-safety-nets/img-6.webp",
         "thumbUrl": "/assets/services/pigeon-safety-nets/thumb-6.webp",
         "alt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Verified Clean Angle 6",
         "originalFolder": "Pigeon Safety Nets",
-        "index": 6
+        "index": 4
       },
       {
         "url": "/assets/services/pigeon-safety-nets/img-7.webp",
         "thumbUrl": "/assets/services/pigeon-safety-nets/thumb-7.webp",
         "alt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Verified Clean Angle 7",
         "originalFolder": "Pigeon Safety Nets",
-        "index": 7
-      },
-      {
-        "url": "/assets/services/pigeon-safety-nets/img-8.webp",
-        "thumbUrl": "/assets/services/pigeon-safety-nets/thumb-8.webp",
-        "alt": "Pigeon exclusion safety netting on apartment balcony and AC duct - Verified Clean Angle 8",
-        "originalFolder": "Pigeon Safety Nets",
-        "index": 8
+        "index": 5
       }
     ]
   },
   "bird-spikes": {
     "hero": "/assets/services/bird-spikes/hero.webp",
-    "heroAlt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Professional installation by Ramana Safety Nets",
+    "heroAlt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/bird-spikes/img-1.webp",
-        "thumbUrl": "/assets/services/bird-spikes/thumb-1.webp",
-        "alt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Verified Clean Angle 1",
-        "originalFolder": "Bird Spikes",
-        "index": 1
-      },
       {
         "url": "/assets/services/bird-spikes/img-2.webp",
         "thumbUrl": "/assets/services/bird-spikes/thumb-2.webp",
         "alt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Verified Clean Angle 2",
         "originalFolder": "Bird Spikes",
-        "index": 2
-      },
-      {
-        "url": "/assets/services/bird-spikes/img-3.webp",
-        "thumbUrl": "/assets/services/bird-spikes/thumb-3.webp",
-        "alt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Verified Clean Angle 3",
-        "originalFolder": "Bird Spikes",
-        "index": 3
-      },
-      {
-        "url": "/assets/services/bird-spikes/img-4.webp",
-        "thumbUrl": "/assets/services/bird-spikes/thumb-4.webp",
-        "alt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Verified Clean Angle 4",
-        "originalFolder": "Bird Spikes",
-        "index": 4
+        "index": 1
       },
       {
         "url": "/assets/services/bird-spikes/img-5.webp",
         "thumbUrl": "/assets/services/bird-spikes/thumb-5.webp",
         "alt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Verified Clean Angle 5",
         "originalFolder": "Bird Spikes",
-        "index": 5
+        "index": 2
       },
       {
         "url": "/assets/services/bird-spikes/img-6.webp",
         "thumbUrl": "/assets/services/bird-spikes/thumb-6.webp",
         "alt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Verified Clean Angle 6",
         "originalFolder": "Bird Spikes",
-        "index": 6
+        "index": 3
       },
       {
         "url": "/assets/services/bird-spikes/img-7.webp",
         "thumbUrl": "/assets/services/bird-spikes/thumb-7.webp",
         "alt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Verified Clean Angle 7",
         "originalFolder": "Bird Spikes",
-        "index": 7
+        "index": 4
       },
       {
         "url": "/assets/services/bird-spikes/img-8.webp",
         "thumbUrl": "/assets/services/bird-spikes/thumb-8.webp",
         "alt": "SS304 stainless steel bird spikes on polycarbonate base mounted on parapet ledge - Verified Clean Angle 8",
         "originalFolder": "Bird Spikes",
-        "index": 8
+        "index": 5
       }
     ]
   },
   "monkey-safety-nets": {
     "hero": "/assets/services/monkey-safety-nets/hero.webp",
-    "heroAlt": "High-tensile monkey deterrence safety netting with steel reinforcement - Professional installation by Ramana Safety Nets",
+    "heroAlt": "High-tensile monkey deterrence safety netting with steel reinforcement - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/monkey-safety-nets/img-1.webp",
-        "thumbUrl": "/assets/services/monkey-safety-nets/thumb-1.webp",
-        "alt": "High-tensile monkey deterrence safety netting with steel reinforcement - Verified Clean Angle 1",
-        "originalFolder": "Monkey Safety Nets",
-        "index": 1
-      },
-      {
-        "url": "/assets/services/monkey-safety-nets/img-2.webp",
-        "thumbUrl": "/assets/services/monkey-safety-nets/thumb-2.webp",
-        "alt": "High-tensile monkey deterrence safety netting with steel reinforcement - Verified Clean Angle 2",
-        "originalFolder": "Monkey Safety Nets",
-        "index": 2
-      },
       {
         "url": "/assets/services/monkey-safety-nets/img-3.webp",
         "thumbUrl": "/assets/services/monkey-safety-nets/thumb-3.webp",
         "alt": "High-tensile monkey deterrence safety netting with steel reinforcement - Verified Clean Angle 3",
         "originalFolder": "Animal Protection Nets",
-        "index": 3
-      },
-      {
-        "url": "/assets/services/monkey-safety-nets/img-4.webp",
-        "thumbUrl": "/assets/services/monkey-safety-nets/thumb-4.webp",
-        "alt": "High-tensile monkey deterrence safety netting with steel reinforcement - Verified Clean Angle 4",
-        "originalFolder": "Animal Protection Nets",
-        "index": 4
-      },
-      {
-        "url": "/assets/services/monkey-safety-nets/img-5.webp",
-        "thumbUrl": "/assets/services/monkey-safety-nets/thumb-5.webp",
-        "alt": "High-tensile monkey deterrence safety netting with steel reinforcement - Verified Clean Angle 5",
-        "originalFolder": "Monkey Safety Nets",
-        "index": 5
+        "index": 1
       },
       {
         "url": "/assets/services/monkey-safety-nets/img-6.webp",
         "thumbUrl": "/assets/services/monkey-safety-nets/thumb-6.webp",
         "alt": "High-tensile monkey deterrence safety netting with steel reinforcement - Verified Clean Angle 6",
         "originalFolder": "Animal Protection Nets",
-        "index": 6
+        "index": 2
       },
       {
         "url": "/assets/services/monkey-safety-nets/img-7.webp",
         "thumbUrl": "/assets/services/monkey-safety-nets/thumb-7.webp",
         "alt": "High-tensile monkey deterrence safety netting with steel reinforcement - Verified Clean Angle 7",
         "originalFolder": "Monkey Safety Nets",
-        "index": 7
+        "index": 3
       },
       {
         "url": "/assets/services/monkey-safety-nets/img-8.webp",
         "thumbUrl": "/assets/services/monkey-safety-nets/thumb-8.webp",
         "alt": "High-tensile monkey deterrence safety netting with steel reinforcement - Verified Clean Angle 8",
         "originalFolder": "Animal Protection Nets",
-        "index": 8
+        "index": 4
       }
     ]
   },
   "duct-area-safety-nets": {
     "hero": "/assets/services/duct-area-safety-nets/hero.webp",
-    "heroAlt": "Full-height duct area safety netting covering multi-storey building shaft - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Full-height duct area safety netting covering multi-storey building shaft - Professional installation by Raghavi Enterprises",
     "images": [
       {
         "url": "/assets/services/duct-area-safety-nets/img-1.webp",
@@ -514,114 +318,93 @@
         "index": 2
       },
       {
-        "url": "/assets/services/duct-area-safety-nets/img-3.webp",
-        "thumbUrl": "/assets/services/duct-area-safety-nets/thumb-3.webp",
-        "alt": "Full-height duct area safety netting covering multi-storey building shaft - Verified Clean Angle 3",
-        "originalFolder": "Duct Area Safety Nets",
-        "index": 3
-      },
-      {
         "url": "/assets/services/duct-area-safety-nets/img-4.webp",
         "thumbUrl": "/assets/services/duct-area-safety-nets/thumb-4.webp",
         "alt": "Full-height duct area safety netting covering multi-storey building shaft - Verified Clean Angle 4",
         "originalFolder": "Duct Area Safety Nets",
-        "index": 4
+        "index": 3
       },
       {
         "url": "/assets/services/duct-area-safety-nets/img-5.webp",
         "thumbUrl": "/assets/services/duct-area-safety-nets/thumb-5.webp",
         "alt": "Full-height duct area safety netting covering multi-storey building shaft - Verified Clean Angle 5",
         "originalFolder": "Duct Area Safety Nets",
-        "index": 5
+        "index": 4
       },
       {
         "url": "/assets/services/duct-area-safety-nets/img-6.webp",
         "thumbUrl": "/assets/services/duct-area-safety-nets/thumb-6.webp",
         "alt": "Full-height duct area safety netting covering multi-storey building shaft - Verified Clean Angle 6",
         "originalFolder": "Duct Area Safety Nets",
-        "index": 6
+        "index": 5
       },
       {
         "url": "/assets/services/duct-area-safety-nets/img-7.webp",
         "thumbUrl": "/assets/services/duct-area-safety-nets/thumb-7.webp",
         "alt": "Full-height duct area safety netting covering multi-storey building shaft - Verified Clean Angle 7",
         "originalFolder": "Duct Area Safety Nets",
-        "index": 7
+        "index": 6
       },
       {
         "url": "/assets/services/duct-area-safety-nets/img-8.webp",
         "thumbUrl": "/assets/services/duct-area-safety-nets/thumb-8.webp",
         "alt": "Full-height duct area safety netting covering multi-storey building shaft - Verified Clean Angle 8",
         "originalFolder": "Duct Area Safety Nets",
-        "index": 8
+        "index": 7
       }
     ]
   },
   "inner-house-safety-nets": {
     "hero": "/assets/services/inner-house-safety-nets/hero.webp",
-    "heroAlt": "Interior atrium and staircase safety net for residential duplex - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Interior atrium and staircase safety net for residential duplex - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/inner-house-safety-nets/img-1.webp",
-        "thumbUrl": "/assets/services/inner-house-safety-nets/thumb-1.webp",
-        "alt": "Interior atrium and staircase safety net for residential duplex - Verified Clean Angle 1",
-        "originalFolder": "Inner House Safety Nets",
-        "index": 1
-      },
       {
         "url": "/assets/services/inner-house-safety-nets/img-2.webp",
         "thumbUrl": "/assets/services/inner-house-safety-nets/thumb-2.webp",
         "alt": "Interior atrium and staircase safety net for residential duplex - Verified Clean Angle 2",
         "originalFolder": "Inner House Safety Nets",
-        "index": 2
+        "index": 1
       },
       {
         "url": "/assets/services/inner-house-safety-nets/img-3.webp",
         "thumbUrl": "/assets/services/inner-house-safety-nets/thumb-3.webp",
         "alt": "Interior atrium and staircase safety net for residential duplex - Verified Clean Angle 3",
         "originalFolder": "Inner House Safety Nets",
-        "index": 3
+        "index": 2
       },
       {
         "url": "/assets/services/inner-house-safety-nets/img-4.webp",
         "thumbUrl": "/assets/services/inner-house-safety-nets/thumb-4.webp",
         "alt": "Interior atrium and staircase safety net for residential duplex - Verified Clean Angle 4",
         "originalFolder": "Inner House Safety Nets",
-        "index": 4
+        "index": 3
       },
       {
         "url": "/assets/services/inner-house-safety-nets/img-5.webp",
         "thumbUrl": "/assets/services/inner-house-safety-nets/thumb-5.webp",
         "alt": "Interior atrium and staircase safety net for residential duplex - Verified Clean Angle 5",
         "originalFolder": "Inner House Safety Nets",
-        "index": 5
+        "index": 4
       },
       {
         "url": "/assets/services/inner-house-safety-nets/img-6.webp",
         "thumbUrl": "/assets/services/inner-house-safety-nets/thumb-6.webp",
         "alt": "Interior atrium and staircase safety net for residential duplex - Verified Clean Angle 6",
         "originalFolder": "Inner House Safety Nets",
-        "index": 6
-      },
-      {
-        "url": "/assets/services/inner-house-safety-nets/img-7.webp",
-        "thumbUrl": "/assets/services/inner-house-safety-nets/thumb-7.webp",
-        "alt": "Interior atrium and staircase safety net for residential duplex - Verified Clean Angle 7",
-        "originalFolder": "Inner House Safety Nets",
-        "index": 7
+        "index": 5
       },
       {
         "url": "/assets/services/inner-house-safety-nets/img-8.webp",
         "thumbUrl": "/assets/services/inner-house-safety-nets/thumb-8.webp",
         "alt": "Interior atrium and staircase safety net for residential duplex - Verified Clean Angle 8",
         "originalFolder": "Inner House Safety Nets",
-        "index": 8
+        "index": 6
       }
     ]
   },
   "steps-safety-nets": {
     "hero": "/assets/services/steps-safety-nets/hero.webp",
-    "heroAlt": "Staircase railing safety netting preventing falls in villa - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Staircase railing safety netting preventing falls in villa - Professional installation by Raghavi Enterprises",
     "images": [
       {
         "url": "/assets/services/steps-safety-nets/img-1.webp",
@@ -683,7 +466,7 @@
   },
   "coconut-safety-nets": {
     "hero": "/assets/services/coconut-safety-nets/hero.webp",
-    "heroAlt": "Coconut tree fall protection safety net protecting vehicles and pedestrians - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Coconut tree fall protection safety net protecting vehicles and pedestrians - Professional installation by Raghavi Enterprises",
     "images": [
       {
         "url": "/assets/services/coconut-safety-nets/img-1.webp",
@@ -714,155 +497,99 @@
         "index": 4
       },
       {
-        "url": "/assets/services/coconut-safety-nets/img-5.webp",
-        "thumbUrl": "/assets/services/coconut-safety-nets/thumb-5.webp",
-        "alt": "Coconut tree fall protection safety net protecting vehicles and pedestrians - Verified Clean Angle 5",
-        "originalFolder": "Coconut Safety Nets",
-        "index": 5
-      },
-      {
         "url": "/assets/services/coconut-safety-nets/img-6.webp",
         "thumbUrl": "/assets/services/coconut-safety-nets/thumb-6.webp",
         "alt": "Coconut tree fall protection safety net protecting vehicles and pedestrians - Verified Clean Angle 6",
         "originalFolder": "Coconut Safety Nets",
-        "index": 6
+        "index": 5
       },
       {
         "url": "/assets/services/coconut-safety-nets/img-7.webp",
         "thumbUrl": "/assets/services/coconut-safety-nets/thumb-7.webp",
         "alt": "Coconut tree fall protection safety net protecting vehicles and pedestrians - Verified Clean Angle 7",
         "originalFolder": "Coconut Safety Nets",
-        "index": 7
+        "index": 6
       }
     ]
   },
   "glass-protection-nets": {
     "hero": "/assets/services/glass-protection-nets/hero.webp",
-    "heroAlt": "High-rise glass facade and window safety containment net - Professional installation by Ramana Safety Nets",
+    "heroAlt": "High-rise glass facade and window safety containment net - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/glass-protection-nets/img-1.webp",
-        "thumbUrl": "/assets/services/glass-protection-nets/thumb-1.webp",
-        "alt": "High-rise glass facade and window safety containment net - Verified Clean Angle 1",
-        "originalFolder": "Facade Protection Nets",
-        "index": 1
-      },
-      {
-        "url": "/assets/services/glass-protection-nets/img-2.webp",
-        "thumbUrl": "/assets/services/glass-protection-nets/thumb-2.webp",
-        "alt": "High-rise glass facade and window safety containment net - Verified Clean Angle 2",
-        "originalFolder": "Glass Protection Nets",
-        "index": 2
-      },
       {
         "url": "/assets/services/glass-protection-nets/img-3.webp",
         "thumbUrl": "/assets/services/glass-protection-nets/thumb-3.webp",
         "alt": "High-rise glass facade and window safety containment net - Verified Clean Angle 3",
         "originalFolder": "Facade Protection Nets",
-        "index": 3
+        "index": 1
       },
       {
         "url": "/assets/services/glass-protection-nets/img-4.webp",
         "thumbUrl": "/assets/services/glass-protection-nets/thumb-4.webp",
         "alt": "High-rise glass facade and window safety containment net - Verified Clean Angle 4",
         "originalFolder": "Facade Protection Nets",
-        "index": 4
+        "index": 2
       },
       {
         "url": "/assets/services/glass-protection-nets/img-5.webp",
         "thumbUrl": "/assets/services/glass-protection-nets/thumb-5.webp",
         "alt": "High-rise glass facade and window safety containment net - Verified Clean Angle 5",
         "originalFolder": "Facade Protection Nets",
-        "index": 5
-      },
-      {
-        "url": "/assets/services/glass-protection-nets/img-6.webp",
-        "thumbUrl": "/assets/services/glass-protection-nets/thumb-6.webp",
-        "alt": "High-rise glass facade and window safety containment net - Verified Clean Angle 6",
-        "originalFolder": "Glass Protection Nets",
-        "index": 6
-      },
-      {
-        "url": "/assets/services/glass-protection-nets/img-7.webp",
-        "thumbUrl": "/assets/services/glass-protection-nets/thumb-7.webp",
-        "alt": "High-rise glass facade and window safety containment net - Verified Clean Angle 7",
-        "originalFolder": "Glass Protection Nets",
-        "index": 7
-      },
-      {
-        "url": "/assets/services/glass-protection-nets/img-8.webp",
-        "thumbUrl": "/assets/services/glass-protection-nets/thumb-8.webp",
-        "alt": "High-rise glass facade and window safety containment net - Verified Clean Angle 8",
-        "originalFolder": "Glass Protection Nets",
-        "index": 8
+        "index": 3
       }
     ]
   },
   "building-covering-nets": {
     "hero": "/assets/services/building-covering-nets/hero.webp",
-    "heroAlt": "Green construction building covering and dust debris containment net - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Green construction building covering and dust debris containment net - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/building-covering-nets/img-1.webp",
-        "thumbUrl": "/assets/services/building-covering-nets/thumb-1.webp",
-        "alt": "Green construction building covering and dust debris containment net - Verified Clean Angle 1",
-        "originalFolder": "Building Covering Nets",
-        "index": 1
-      },
       {
         "url": "/assets/services/building-covering-nets/img-2.webp",
         "thumbUrl": "/assets/services/building-covering-nets/thumb-2.webp",
         "alt": "Green construction building covering and dust debris containment net - Verified Clean Angle 2",
         "originalFolder": "Building Covering Nets",
-        "index": 2
+        "index": 1
       },
       {
         "url": "/assets/services/building-covering-nets/img-3.webp",
         "thumbUrl": "/assets/services/building-covering-nets/thumb-3.webp",
         "alt": "Green construction building covering and dust debris containment net - Verified Clean Angle 3",
         "originalFolder": "Building Covering Nets",
-        "index": 3
+        "index": 2
       },
       {
         "url": "/assets/services/building-covering-nets/img-4.webp",
         "thumbUrl": "/assets/services/building-covering-nets/thumb-4.webp",
         "alt": "Green construction building covering and dust debris containment net - Verified Clean Angle 4",
         "originalFolder": "Scaffold Nets",
-        "index": 4
-      },
-      {
-        "url": "/assets/services/building-covering-nets/img-5.webp",
-        "thumbUrl": "/assets/services/building-covering-nets/thumb-5.webp",
-        "alt": "Green construction building covering and dust debris containment net - Verified Clean Angle 5",
-        "originalFolder": "Scaffold Nets",
-        "index": 5
+        "index": 3
       },
       {
         "url": "/assets/services/building-covering-nets/img-6.webp",
         "thumbUrl": "/assets/services/building-covering-nets/thumb-6.webp",
         "alt": "Green construction building covering and dust debris containment net - Verified Clean Angle 6",
         "originalFolder": "Scaffold Nets",
-        "index": 6
+        "index": 4
       },
       {
         "url": "/assets/services/building-covering-nets/img-7.webp",
         "thumbUrl": "/assets/services/building-covering-nets/thumb-7.webp",
         "alt": "Green construction building covering and dust debris containment net - Verified Clean Angle 7",
         "originalFolder": "Building Covering Nets",
-        "index": 7
+        "index": 5
       },
       {
         "url": "/assets/services/building-covering-nets/img-8.webp",
         "thumbUrl": "/assets/services/building-covering-nets/thumb-8.webp",
         "alt": "Green construction building covering and dust debris containment net - Verified Clean Angle 8",
         "originalFolder": "Building Covering Nets",
-        "index": 8
+        "index": 6
       }
     ]
   },
   "construction-safety-nets": {
     "hero": "/assets/services/construction-safety-nets/hero.webp",
-    "heroAlt": "IS 11057 certified heavy-duty personnel fall-arrest construction safety net - Professional installation by Ramana Safety Nets",
+    "heroAlt": "IS 11057 certified heavy-duty personnel fall-arrest construction safety net - Professional installation by Raghavi Enterprises",
     "images": [
       {
         "url": "/assets/services/construction-safety-nets/img-1.webp",
@@ -893,224 +620,168 @@
         "index": 4
       },
       {
-        "url": "/assets/services/construction-safety-nets/img-5.webp",
-        "thumbUrl": "/assets/services/construction-safety-nets/thumb-5.webp",
-        "alt": "IS 11057 certified heavy-duty personnel fall-arrest construction safety net - Verified Clean Angle 5",
-        "originalFolder": "Industrial Safety Nets",
-        "index": 5
-      },
-      {
-        "url": "/assets/services/construction-safety-nets/img-6.webp",
-        "thumbUrl": "/assets/services/construction-safety-nets/thumb-6.webp",
-        "alt": "IS 11057 certified heavy-duty personnel fall-arrest construction safety net - Verified Clean Angle 6",
-        "originalFolder": "Factory Safety Nets",
-        "index": 6
-      },
-      {
         "url": "/assets/services/construction-safety-nets/img-7.webp",
         "thumbUrl": "/assets/services/construction-safety-nets/thumb-7.webp",
         "alt": "IS 11057 certified heavy-duty personnel fall-arrest construction safety net - Verified Clean Angle 7",
         "originalFolder": "Construction Safety Nets",
-        "index": 7
-      },
-      {
-        "url": "/assets/services/construction-safety-nets/img-8.webp",
-        "thumbUrl": "/assets/services/construction-safety-nets/thumb-8.webp",
-        "alt": "IS 11057 certified heavy-duty personnel fall-arrest construction safety net - Verified Clean Angle 8",
-        "originalFolder": "Industrial Safety Nets",
-        "index": 8
+        "index": 5
       }
     ]
   },
   "cricket-practice-nets": {
     "hero": "/assets/services/cricket-practice-nets/hero.webp",
-    "heroAlt": "UV-treated nylon cricket practice net cage for club and terrace academy - Professional installation by Ramana Safety Nets",
+    "heroAlt": "UV-treated nylon cricket practice net cage for club and terrace academy - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/cricket-practice-nets/img-1.webp",
-        "thumbUrl": "/assets/services/cricket-practice-nets/thumb-1.webp",
-        "alt": "UV-treated nylon cricket practice net cage for club and terrace academy - Verified Clean Angle 1",
-        "originalFolder": "Cricket Practice Nets",
-        "index": 1
-      },
-      {
-        "url": "/assets/services/cricket-practice-nets/img-2.webp",
-        "thumbUrl": "/assets/services/cricket-practice-nets/thumb-2.webp",
-        "alt": "UV-treated nylon cricket practice net cage for club and terrace academy - Verified Clean Angle 2",
-        "originalFolder": "Cricket Practice Nets",
-        "index": 2
-      },
       {
         "url": "/assets/services/cricket-practice-nets/img-3.webp",
         "thumbUrl": "/assets/services/cricket-practice-nets/thumb-3.webp",
         "alt": "UV-treated nylon cricket practice net cage for club and terrace academy - Verified Clean Angle 3",
         "originalFolder": "Cricket Practice Nets",
-        "index": 3
+        "index": 1
       },
       {
         "url": "/assets/services/cricket-practice-nets/img-4.webp",
         "thumbUrl": "/assets/services/cricket-practice-nets/thumb-4.webp",
         "alt": "UV-treated nylon cricket practice net cage for club and terrace academy - Verified Clean Angle 4",
         "originalFolder": "Cricket Practice Nets",
-        "index": 4
+        "index": 2
       },
       {
         "url": "/assets/services/cricket-practice-nets/img-5.webp",
         "thumbUrl": "/assets/services/cricket-practice-nets/thumb-5.webp",
         "alt": "UV-treated nylon cricket practice net cage for club and terrace academy - Verified Clean Angle 5",
         "originalFolder": "Cricket Practice Nets",
-        "index": 5
+        "index": 3
       },
       {
         "url": "/assets/services/cricket-practice-nets/img-6.webp",
         "thumbUrl": "/assets/services/cricket-practice-nets/thumb-6.webp",
         "alt": "UV-treated nylon cricket practice net cage for club and terrace academy - Verified Clean Angle 6",
         "originalFolder": "Cricket Practice Nets",
-        "index": 6
+        "index": 4
       },
       {
         "url": "/assets/services/cricket-practice-nets/img-7.webp",
         "thumbUrl": "/assets/services/cricket-practice-nets/thumb-7.webp",
         "alt": "UV-treated nylon cricket practice net cage for club and terrace academy - Verified Clean Angle 7",
         "originalFolder": "Cricket Practice Nets",
-        "index": 7
+        "index": 5
       },
       {
         "url": "/assets/services/cricket-practice-nets/img-8.webp",
         "thumbUrl": "/assets/services/cricket-practice-nets/thumb-8.webp",
         "alt": "UV-treated nylon cricket practice net cage for club and terrace academy - Verified Clean Angle 8",
         "originalFolder": "Cricket Practice Nets",
-        "index": 8
+        "index": 6
       }
     ]
   },
   "sports-safety-nets": {
     "hero": "/assets/services/sports-safety-nets/hero.webp",
-    "heroAlt": "Outdoor sports court perimeter enclosure netting in Bangalore - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Outdoor sports court perimeter enclosure netting in Bangalore - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/sports-safety-nets/img-1.webp",
-        "thumbUrl": "/assets/services/sports-safety-nets/thumb-1.webp",
-        "alt": "Outdoor sports court perimeter enclosure netting in Bangalore - Verified Clean Angle 1",
-        "originalFolder": "Football Nets",
-        "index": 1
-      },
       {
         "url": "/assets/services/sports-safety-nets/img-2.webp",
         "thumbUrl": "/assets/services/sports-safety-nets/thumb-2.webp",
         "alt": "Outdoor sports court perimeter enclosure netting in Bangalore - Verified Clean Angle 2",
         "originalFolder": "Hockey Nets",
-        "index": 2
+        "index": 1
       },
       {
         "url": "/assets/services/sports-safety-nets/img-3.webp",
         "thumbUrl": "/assets/services/sports-safety-nets/thumb-3.webp",
         "alt": "Outdoor sports court perimeter enclosure netting in Bangalore - Verified Clean Angle 3",
         "originalFolder": "Basketball Protection Nets",
-        "index": 3
+        "index": 2
       },
       {
         "url": "/assets/services/sports-safety-nets/img-4.webp",
         "thumbUrl": "/assets/services/sports-safety-nets/thumb-4.webp",
         "alt": "Outdoor sports court perimeter enclosure netting in Bangalore - Verified Clean Angle 4",
         "originalFolder": "Golf Practice Nets",
-        "index": 4
+        "index": 3
       },
       {
         "url": "/assets/services/sports-safety-nets/img-5.webp",
         "thumbUrl": "/assets/services/sports-safety-nets/thumb-5.webp",
         "alt": "Outdoor sports court perimeter enclosure netting in Bangalore - Verified Clean Angle 5",
         "originalFolder": "Golf Practice Nets",
-        "index": 5
+        "index": 4
       },
       {
         "url": "/assets/services/sports-safety-nets/img-6.webp",
         "thumbUrl": "/assets/services/sports-safety-nets/thumb-6.webp",
         "alt": "Outdoor sports court perimeter enclosure netting in Bangalore - Verified Clean Angle 6",
         "originalFolder": "Badminton Nets",
-        "index": 6
+        "index": 5
       },
       {
         "url": "/assets/services/sports-safety-nets/img-7.webp",
         "thumbUrl": "/assets/services/sports-safety-nets/thumb-7.webp",
         "alt": "Outdoor sports court perimeter enclosure netting in Bangalore - Verified Clean Angle 7",
         "originalFolder": "Sports Safety Nets",
-        "index": 7
+        "index": 6
       },
       {
         "url": "/assets/services/sports-safety-nets/img-8.webp",
         "thumbUrl": "/assets/services/sports-safety-nets/thumb-8.webp",
         "alt": "Outdoor sports court perimeter enclosure netting in Bangalore - Verified Clean Angle 8",
         "originalFolder": "Golf Practice Nets",
-        "index": 8
+        "index": 7
       }
     ]
   },
   "all-sports-nets": {
     "hero": "/assets/services/all-sports-nets/hero.webp",
-    "heroAlt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/all-sports-nets/img-1.webp",
-        "thumbUrl": "/assets/services/all-sports-nets/thumb-1.webp",
-        "alt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Verified Clean Angle 1",
-        "originalFolder": "Football Nets",
-        "index": 1
-      },
       {
         "url": "/assets/services/all-sports-nets/img-2.webp",
         "thumbUrl": "/assets/services/all-sports-nets/thumb-2.webp",
         "alt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Verified Clean Angle 2",
         "originalFolder": "Badminton Nets",
-        "index": 2
+        "index": 1
       },
       {
         "url": "/assets/services/all-sports-nets/img-3.webp",
         "thumbUrl": "/assets/services/all-sports-nets/thumb-3.webp",
         "alt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Verified Clean Angle 3",
         "originalFolder": "Sports Safety Nets",
-        "index": 3
+        "index": 2
       },
       {
         "url": "/assets/services/all-sports-nets/img-4.webp",
         "thumbUrl": "/assets/services/all-sports-nets/thumb-4.webp",
         "alt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Verified Clean Angle 4",
         "originalFolder": "Multi Sport Nets",
-        "index": 4
+        "index": 3
       },
       {
         "url": "/assets/services/all-sports-nets/img-5.webp",
         "thumbUrl": "/assets/services/all-sports-nets/thumb-5.webp",
         "alt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Verified Clean Angle 5",
         "originalFolder": "Sports Safety Nets",
-        "index": 5
+        "index": 4
       },
       {
         "url": "/assets/services/all-sports-nets/img-6.webp",
         "thumbUrl": "/assets/services/all-sports-nets/thumb-6.webp",
         "alt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Verified Clean Angle 6",
         "originalFolder": "Football Nets",
-        "index": 6
-      },
-      {
-        "url": "/assets/services/all-sports-nets/img-7.webp",
-        "thumbUrl": "/assets/services/all-sports-nets/thumb-7.webp",
-        "alt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Verified Clean Angle 7",
-        "originalFolder": "Badminton Nets",
-        "index": 7
+        "index": 5
       },
       {
         "url": "/assets/services/all-sports-nets/img-8.webp",
         "thumbUrl": "/assets/services/all-sports-nets/thumb-8.webp",
         "alt": "Multi-sport high-impact ball containment netting for indoor and outdoor turf - Verified Clean Angle 8",
         "originalFolder": "Sports Safety Nets",
-        "index": 8
+        "index": 6
       }
     ]
   },
   "mosquito-nets": {
     "hero": "/assets/services/mosquito-nets/hero.webp",
-    "heroAlt": "Custom sliding and pleated mosquito mesh screen for doors and windows - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Custom sliding and pleated mosquito mesh screen for doors and windows - Professional installation by Raghavi Enterprises",
     "images": [
       {
         "url": "/assets/services/mosquito-nets/img-1.webp",
@@ -1141,156 +812,100 @@
         "index": 4
       },
       {
-        "url": "/assets/services/mosquito-nets/img-5.webp",
-        "thumbUrl": "/assets/services/mosquito-nets/thumb-5.webp",
-        "alt": "Custom sliding and pleated mosquito mesh screen for doors and windows - Verified Clean Angle 5",
-        "originalFolder": "Magnetic Mosquito Screens",
-        "index": 5
-      },
-      {
-        "url": "/assets/services/mosquito-nets/img-6.webp",
-        "thumbUrl": "/assets/services/mosquito-nets/thumb-6.webp",
-        "alt": "Custom sliding and pleated mosquito mesh screen for doors and windows - Verified Clean Angle 6",
-        "originalFolder": "Sliding Mosquito Screens",
-        "index": 6
-      },
-      {
         "url": "/assets/services/mosquito-nets/img-7.webp",
         "thumbUrl": "/assets/services/mosquito-nets/thumb-7.webp",
         "alt": "Custom sliding and pleated mosquito mesh screen for doors and windows - Verified Clean Angle 7",
         "originalFolder": "Window Mosquito Screens",
-        "index": 7
-      },
-      {
-        "url": "/assets/services/mosquito-nets/img-8.webp",
-        "thumbUrl": "/assets/services/mosquito-nets/thumb-8.webp",
-        "alt": "Custom sliding and pleated mosquito mesh screen for doors and windows - Verified Clean Angle 8",
-        "originalFolder": "Sliding Mosquito Screens",
-        "index": 8
+        "index": 5
       }
     ]
   },
   "swimming-pool-safety-nets": {
     "hero": "/assets/services/swimming-pool-safety-nets/hero.webp",
-    "heroAlt": "Reinforced swimming pool safety cover net with brass anchor system - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Reinforced swimming pool safety cover net with brass anchor system - Professional installation by Raghavi Enterprises",
     "images": [
-      {
-        "url": "/assets/services/swimming-pool-safety-nets/img-1.webp",
-        "thumbUrl": "/assets/services/swimming-pool-safety-nets/thumb-1.webp",
-        "alt": "Reinforced swimming pool safety cover net with brass anchor system - Verified Clean Angle 1",
-        "originalFolder": "Pool Covers",
-        "index": 1
-      },
       {
         "url": "/assets/services/swimming-pool-safety-nets/img-2.webp",
         "thumbUrl": "/assets/services/swimming-pool-safety-nets/thumb-2.webp",
         "alt": "Reinforced swimming pool safety cover net with brass anchor system - Verified Clean Angle 2",
         "originalFolder": "Pool Safety Barriers",
-        "index": 2
+        "index": 1
       },
       {
         "url": "/assets/services/swimming-pool-safety-nets/img-3.webp",
         "thumbUrl": "/assets/services/swimming-pool-safety-nets/thumb-3.webp",
         "alt": "Reinforced swimming pool safety cover net with brass anchor system - Verified Clean Angle 3",
         "originalFolder": "Pool Covers",
-        "index": 3
+        "index": 2
       },
       {
         "url": "/assets/services/swimming-pool-safety-nets/img-4.webp",
         "thumbUrl": "/assets/services/swimming-pool-safety-nets/thumb-4.webp",
         "alt": "Reinforced swimming pool safety cover net with brass anchor system - Verified Clean Angle 4",
         "originalFolder": "Pool Safety Barriers",
-        "index": 4
+        "index": 3
       },
       {
         "url": "/assets/services/swimming-pool-safety-nets/img-5.webp",
         "thumbUrl": "/assets/services/swimming-pool-safety-nets/thumb-5.webp",
         "alt": "Reinforced swimming pool safety cover net with brass anchor system - Verified Clean Angle 5",
         "originalFolder": "Swimming Pool Safety Nets",
-        "index": 5
+        "index": 4
       },
       {
         "url": "/assets/services/swimming-pool-safety-nets/img-6.webp",
         "thumbUrl": "/assets/services/swimming-pool-safety-nets/thumb-6.webp",
         "alt": "Reinforced swimming pool safety cover net with brass anchor system - Verified Clean Angle 6",
         "originalFolder": "Swimming Pool Safety Nets",
-        "index": 6
-      },
-      {
-        "url": "/assets/services/swimming-pool-safety-nets/img-7.webp",
-        "thumbUrl": "/assets/services/swimming-pool-safety-nets/thumb-7.webp",
-        "alt": "Reinforced swimming pool safety cover net with brass anchor system - Verified Clean Angle 7",
-        "originalFolder": "Pool Covers",
-        "index": 7
-      },
-      {
-        "url": "/assets/services/swimming-pool-safety-nets/img-8.webp",
-        "thumbUrl": "/assets/services/swimming-pool-safety-nets/thumb-8.webp",
-        "alt": "Reinforced swimming pool safety cover net with brass anchor system - Verified Clean Angle 8",
-        "originalFolder": "Pool Safety Barriers",
-        "index": 8
+        "index": 5
       }
     ]
   },
   "invisible-grills": {
     "hero": "/assets/services/invisible-grills/hero.webp",
-    "heroAlt": "Marine-grade SS316 high-tensile invisible grill with transparent nylon membrane - Professional installation by Ramana Safety Nets",
+    "heroAlt": "Modern High-Tensile Invisible Grill with transparent nylon membrane - Professional installation by Raghavi Enterprises",
     "images": [
       {
         "url": "/assets/services/invisible-grills/img-1.webp",
         "thumbUrl": "/assets/services/invisible-grills/thumb-1.webp",
-        "alt": "Marine-grade SS316 high-tensile invisible grill with transparent nylon membrane - Verified Clean Angle 1",
+        "alt": "Modern High-Tensile Invisible Grill with transparent nylon membrane - Verified Clean Angle 1",
         "originalFolder": "Balcony Invisible Grills",
         "index": 1
       },
       {
         "url": "/assets/services/invisible-grills/img-2.webp",
         "thumbUrl": "/assets/services/invisible-grills/thumb-2.webp",
-        "alt": "Marine-grade SS316 high-tensile invisible grill with transparent nylon membrane - Verified Clean Angle 2",
+        "alt": "Modern High-Tensile Invisible Grill with transparent nylon membrane - Verified Clean Angle 2",
         "originalFolder": "SS304 Invisible Grills",
         "index": 2
       },
       {
         "url": "/assets/services/invisible-grills/img-3.webp",
         "thumbUrl": "/assets/services/invisible-grills/thumb-3.webp",
-        "alt": "Marine-grade SS316 high-tensile invisible grill with transparent nylon membrane - Verified Clean Angle 3",
+        "alt": "Modern High-Tensile Invisible Grill with transparent nylon membrane - Verified Clean Angle 3",
         "originalFolder": "Invisible Grills",
         "index": 3
       },
       {
-        "url": "/assets/services/invisible-grills/img-4.webp",
-        "thumbUrl": "/assets/services/invisible-grills/thumb-4.webp",
-        "alt": "Marine-grade SS316 high-tensile invisible grill with transparent nylon membrane - Verified Clean Angle 4",
-        "originalFolder": "Balcony Invisible Grills",
-        "index": 4
-      },
-      {
         "url": "/assets/services/invisible-grills/img-5.webp",
         "thumbUrl": "/assets/services/invisible-grills/thumb-5.webp",
-        "alt": "Marine-grade SS316 high-tensile invisible grill with transparent nylon membrane - Verified Clean Angle 5",
+        "alt": "Modern High-Tensile Invisible Grill with transparent nylon membrane - Verified Clean Angle 5",
         "originalFolder": "Staircase Invisible Grills",
-        "index": 5
+        "index": 4
       },
       {
         "url": "/assets/services/invisible-grills/img-6.webp",
         "thumbUrl": "/assets/services/invisible-grills/thumb-6.webp",
-        "alt": "Marine-grade SS316 high-tensile invisible grill with transparent nylon membrane - Verified Clean Angle 6",
+        "alt": "Modern High-Tensile Invisible Grill with transparent nylon membrane - Verified Clean Angle 6",
         "originalFolder": "Balcony Invisible Grills",
-        "index": 6
+        "index": 5
       },
       {
         "url": "/assets/services/invisible-grills/img-7.webp",
         "thumbUrl": "/assets/services/invisible-grills/thumb-7.webp",
-        "alt": "Marine-grade SS316 high-tensile invisible grill with transparent nylon membrane - Verified Clean Angle 7",
-        "originalFolder": "SS316 Invisible Grills",
-        "index": 7
-      },
-      {
-        "url": "/assets/services/invisible-grills/img-8.webp",
-        "thumbUrl": "/assets/services/invisible-grills/thumb-8.webp",
-        "alt": "Marine-grade SS316 high-tensile invisible grill with transparent nylon membrane - Verified Clean Angle 8",
-        "originalFolder": "Openable Invisible Grills",
-        "index": 8
+        "alt": "Modern High-Tensile Invisible Grill with transparent nylon membrane - Verified Clean Angle 7",
+        "originalFolder": "Invisible Grills",
+        "index": 6
       }
     ]
   }

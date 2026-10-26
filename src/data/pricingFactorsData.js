@@ -3,7 +3,7 @@ export const pricingFactors = {
   components: [
     {
       title: "1. Material Grade & Specification",
-      desc: "Authentic virgin Garware HDPE co-polymer vs recycled plastics; AISI 316 Marine Grade vs standard commercial wire; mesh aperture and ply thickness."
+      desc: "Authentic virgin Garware HDPE co-polymer vs recycled plastics; high-tensile stainless steel vs standard commercial wire; mesh aperture and ply thickness."
     },
     {
       title: "2. Boundary Ropes & Structural Tracks",
@@ -11,7 +11,7 @@ export const pricingFactors = {
     },
     {
       title: "3. Anchors & Substrate Fixings",
-      desc: "Rust-proof AISI 304/316 expansion bolts, chemical anchors, or non-invasive wooden clamps depending on whether fixing into RCC concrete, brickwork, or steel."
+      desc: "Rust-proof rust-proof expansion bolts, chemical anchors, or non-invasive wooden clamps depending on whether fixing into RCC concrete, brickwork, or steel."
     },
     {
       title: "4. High-Altitude Access Equipment",

@@ -13,7 +13,7 @@ export default function PricingGuidePage() {
   const priceDrivers = [
     {
       driver: "1. Material Specification & Grade",
-      effect: "100% Virgin Garware HDPE vs recycled plastic; AISI 316 Marine Grade stainless steel vs commercial 202 wire directly affects raw material longevity and anti-rust performance."
+      effect: "100% Virgin Garware HDPE vs recycled plastic; high-tensile stainless steel vs commercial 202 wire directly affects raw material longevity and anti-rust performance."
     },
     {
       driver: "2. Mesh Aperture & Twine Thickness",

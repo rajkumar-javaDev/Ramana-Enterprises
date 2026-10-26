@@ -136,7 +136,7 @@ export default function CustomerGuidePage() {
                   Standard Operating Procedure
                 </span>
                 <h3 className="text-2xl font-extrabold text-slate-950">Universal 9-Step Pre-Installation Quality Protocol</h3>
-                <p className="text-xs sm:text-sm text-slate-600 mt-1">Every Ramana Safety Nets installation strictly adheres to this 9-step quality lifecycle.</p>
+                <p className="text-xs sm:text-sm text-slate-600 mt-1">Every Raghavi Enterprises installation strictly adheres to this 9-step quality lifecycle.</p>
               </div>
 
               <div className="space-y-4">

@@ -16,7 +16,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-              <img src="/assets/services/balcony-safety-nets/hero.webp" alt="Ramana Safety Nets High-Rise Balcony Netting in Bangalore" className="w-full h-auto object-cover aspect-[4/5]" loading="lazy" />
+              <img src="/assets/services/anti-bird-nets/img-5.webp" alt="Raghavi Enterprises High-Rise Balcony Safety Netting in Hosapete & Karnataka" className="w-full h-auto object-cover aspect-[4/5]" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-8 left-8 right-8 text-white">
                 <div className="flex items-center space-x-2 mb-2"><Shield className="w-6 h-6 text-green-400" /><span className="font-semibold text-lg">Garware ISO Certified</span></div>
@@ -27,9 +27,9 @@ const AboutSection = () => {
             <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-slate-100 rounded-br-3xl -z-10"></div>
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-            <div className="inline-flex items-center px-4 py-2 bg-green-50 text-green-700 rounded-full font-medium text-sm mb-6"><span className="w-2 h-2 rounded-full bg-green-600 mr-2"></span>About Ramana Safety Nets</div>
+            <div className="inline-flex items-center px-4 py-2 bg-green-50 text-green-700 rounded-full font-medium text-sm mb-6"><span className="w-2 h-2 rounded-full bg-green-600 mr-2"></span>About Raghavi Enterprises</div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">Protecting Your Loved Ones With Premium Safety Solutions</h2>
-            <p className="text-lg text-slate-600 mb-8 leading-relaxed">Ramana Safety Nets is Bangalore's most trusted provider of specialized netting solutions. With over 12 years of industry expertise, we deliver flawless installations that combine maximum safety with aesthetic appeal.</p>
+            <p className="text-lg text-slate-600 mb-8 leading-relaxed">Raghavi Enterprises is Bangalore's most trusted provider of specialized netting solutions. With over 12 years of industry expertise, we deliver flawless installations that combine maximum safety with aesthetic appeal.</p>
             <ul className="space-y-4 mb-10">
               {['Garware branded authentic ISO certified nets', 'Certified professional installation team', 'Free doorstep inspection and quotation', 'Customized solutions for unique requirements'].map((item, idx) => (
                 <li key={idx} className="flex items-start"><CheckCircle2 className="w-6 h-6 text-green-500 mr-3 shrink-0" /><span className="text-slate-700 font-medium">{item}</span></li>

@@ -18,22 +18,22 @@ export const comparisonsData = [
     verdict: "For residential balconies and pigeon control in Bangalore, UV-stabilized HDPE is the gold standard because it will not stretch or absorb water during heavy monsoons. For cricket practice pitches, Nylon is mandatory to cushion 150 km/h ball strikes."
   },
   {
-    id: "ss304-vs-ss316",
-    title: "AISI 304 vs AISI 316 Stainless Steel",
+    id: "ss304-vs-Invisible Grill",
+    title: "Standard vs High-Tensile Invisible Grill Cables",
     tagline: "Understanding marine-grade steel metallurgy for invisible grills & bird spikes",
     optionA: {
       name: "AISI 304 Stainless Steel (18/8)",
-      pros: ["High structural tensile strength", "Excellent corrosion resistance in urban non-coastal areas", "Lower cost than 316 grade"],
+      pros: ["High structural tensile strength", "Excellent corrosion resistance in urban non-coastal areas", "Lower cost than high-tensile"],
       cons: ["Susceptible to pitting in high-chloride or marine salt air"],
       bestFor: "Bird spikes, interior stairwell cables, standard urban apartment invisible grills"
     },
     optionB: {
-      name: "AISI 316 Marine Grade Stainless Steel (18/10/2 + Mo)",
+      name: "high-tensile stainless steel (18/10/2 + Mo)",
       pros: ["Contains 2-3% Molybdenum for extreme pitting resistance", "Withstands coastal humidity, acid rain, and airborne pollution", "Longest structural lifespan"],
       cons: ["Higher alloy cost"],
       bestFor: "Premium high-rise invisible grills, open balconies, luxury villas, coastal locations"
     },
-    verdict: "While SS304 performs well for bird spike needles, we strictly utilize AISI 316 Marine-Grade stainless steel for our invisible grill cable cores in high-rise Bangalore apartments to ensure zero rusting over a 10+ year span."
+    verdict: "While SS304 performs well for bird spike needles, we strictly utilize high-tensile stainless steel for our invisible grill cable cores in high-rise Bangalore apartments to ensure zero rusting over a 10+ year span."
   },
   {
     id: "bird-spikes-vs-bird-net",
@@ -58,8 +58,8 @@ export const comparisonsData = [
     title: "Invisible Grills vs Balcony Safety Nets",
     tagline: "Comparing modern tensioned steel cables with polymer mesh systems",
     optionA: {
-      name: "316 SS Invisible Grills",
-      pros: ["Ultra-modern luxury aesthetic with 98% unobstructed view", "316 Marine-grade stainless steel cables with 140kg tension", "Emergency egress compliant (can be cut during fire emergencies)"],
+      name: "Invisible Grills",
+      pros: ["Ultra-modern luxury aesthetic with 98% unobstructed view", "High-Tensile Stainless Steel cables with 140kg tension", "Emergency egress compliant (can be cut during fire emergencies)"],
       cons: ["Higher initial investment per sq.ft", "Does not exclude small birds/pigeons (unless supplementary fine mesh added)"],
       bestFor: "Luxury high-rise apartments, child safety with skyline view, modern architectural elevation"
     },

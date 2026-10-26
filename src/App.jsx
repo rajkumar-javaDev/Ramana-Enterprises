@@ -74,7 +74,7 @@ function Layout() {
     <div className="min-h-screen flex flex-col bg-white text-slate-950 font-sans">
       <ScrollToTop />
       <Navbar onOpenQuoteModal={() => setIsQuoteModalOpen(true)} />
-      <main className="flex-grow pt-[76px] sm:pt-[86px] lg:pt-[96px]">
+      <main className="flex-grow pt-[88px] sm:pt-[104px] lg:pt-[112px]">
         <Suspense fallback={<PageLoader />}>
           <Outlet context={{ onOpenQuoteModal: () => setIsQuoteModalOpen(true) }} />
         </Suspense>

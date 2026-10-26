@@ -5,6 +5,6 @@ import { servicesData } from '../../data/servicesData';
 
 export default function IndustrialSafetyNetsPage() {
   const { onOpenQuoteModal } = useOutletContext();
-  const service = servicesData.find(s => s.slug === 'industrial-safety-nets');
+  const service = servicesData.find(s => s.slug === 'construction-safety-nets' || s.slug === 'industrial-safety-nets');
   return <ServicePageTemplate service={service} onOpenQuoteModal={onOpenQuoteModal} />;
 }

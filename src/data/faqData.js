@@ -28,8 +28,8 @@ export const faqData = [
         answer: "Garware High-Density Polyethylene (HDPE) is the preferred material for residential balconies and bird protection because it absorbs zero water (does not sag or rot during heavy monsoons) and has superior chemical/acid rain resistance. Nylon (polyamide) is used where maximum dynamic impact elasticity is needed, such as in cricket practice enclosures."
       },
       {
-        question: "What is the difference between SS304 and SS316 for invisible grills?",
-        answer: "AISI 304 is a standard 18/8 stainless steel suitable for interior or moderate urban environments. AISI 316 contains 2-3% Molybdenum, providing superior resistance to chloride pitting, coastal humidity, and atmospheric pollution. We strictly use AISI 316 for high-rise exterior invisible grills."
+        question: "What is the difference between Invisible Grill Cables for invisible grills?",
+        answer: "AISI 304 is a standard 18/8 stainless steel suitable for interior or moderate urban environments. high-tensile stainless steel contains 2-3% Molybdenum, providing superior resistance to chloride pitting, coastal humidity, and atmospheric pollution. We strictly use high-tensile stainless steel for high-rise exterior invisible grills."
       },
       {
         question: "What is the difference between knotted and knotless netting?",
@@ -84,7 +84,7 @@ export const faqData = [
     items: [
       {
         question: "How is safety net pricing calculated?",
-        answer: "Project pricing is calculated transparently based on total square footage, material specification (HDPE vs Nylon vs 316 SS), anchor hardware, high-altitude access requirements, custom geometry (curved edges/ducts), and warranty coverage."
+        answer: "Project pricing is calculated transparently based on total square footage, material specification (HDPE vs Nylon vs Invisible Grills), anchor hardware, high-altitude access requirements, custom geometry (curved edges/ducts), and warranty coverage."
       },
       {
         question: "Is the doorstep site survey and measurement really 100% free?",

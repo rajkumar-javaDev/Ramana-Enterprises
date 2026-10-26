@@ -54,8 +54,8 @@ export default function MaterialComparisonsPage() {
   return (
     <>
       <SEO
-        title="Technical Material Comparisons | HDPE vs Nylon vs SS316 vs SS304"
-        description="Authoritative material selection guide: Garware HDPE vs Nylon, AISI 304 vs 316 Stainless Steel, Mesh Aperture Selection Table, and Knotted vs Knotless comparisons."
+        title="Technical Material Comparisons | HDPE vs Nylon vs Invisible Grills"
+        description="Authoritative material selection guide: Garware HDPE vs Nylon, Invisible Grill Cable Specifications, Mesh Aperture Selection Table, and Knotted vs Knotless comparisons."
         canonicalUrl="/materials-guide"
       />
 
@@ -239,7 +239,7 @@ export default function MaterialComparisonsPage() {
             Unsure Which Material Best Fits Your Balcony or Site?
           </h2>
           <p className="text-sm text-slate-600">
-            Request a free doorstep inspection in Bangalore. Our technician carries physical swatch samples of HDPE, Nylon, SS304, and SS316 for your direct evaluation.
+            Request a free doorstep inspection in Bangalore. Our technician carries physical swatch samples of HDPE, Nylon, and Invisible Grill cables for your direct evaluation.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <a

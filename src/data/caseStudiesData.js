@@ -25,11 +25,11 @@ export const caseStudiesData = [
     location: "Sobha City, Thanisandra Main Road, Bangalore",
     problem: "Homeowners with two toddlers (ages 2 and 4) required complete balcony fall protection on the 22nd floor without compromising panoramic skyline views or violating apartment elevation restrictions against traditional iron grills.",
     technicalConstraints: "Wide 24-foot balcony opening, concrete ceiling beam with tile cladding, and requirement for emergency fire egress compliance.",
-    proposedSystem: "316 Marine-Grade Stainless Steel Invisible Grill with 2.5mm nylon-coated high-tensile wire rope spaced at 2 inches (50mm) vertical intervals in heavy powder-coated aluminium structural tracks.",
+    proposedSystem: "Modern High-Tensile Invisible Grill with 2.5mm nylon-coated high-tensile wire rope spaced at 2 inches (50mm) vertical intervals in heavy powder-coated aluminium structural tracks.",
     installationProcess: [
       "Laser level measurement and structural substrate load mapping.",
       "Top and bottom installation of structural aluminium extrusion tracks using high-tensile anchor fasteners.",
-      "Threading and calibrated manual tensioning of 316 SS wire ropes to 140 kg tensile resistance per line.",
+      "Threading and calibrated manual tensioning of Invisible Grill wire ropes to 140 kg tensile resistance per line.",
       "Dual-point lock mechanism securing individual tension blocks.",
       "Physical deflection testing ensuring maximum cable spread under heavy lateral pull does not exceed 75mm."
     ],

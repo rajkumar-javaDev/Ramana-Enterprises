@@ -34,7 +34,7 @@ export default function ServicesPage() {
           <SectionHeader
             badgeText="Complete Industry Catalog"
             title="21 Certified Safety Net & Barrier Services"
-            subtitle="Engineered with genuine Garware HDPE, high-tenacity nylon, and 316 marine-grade stainless steel cables with strict safety classification standards across Bangalore."
+            subtitle="Engineered with genuine Garware HDPE, high-tenacity nylon, and High-Tensile Stainless Steel cables with strict safety classification standards across Bangalore."
           />
 
           {/* Quick Hub Navigation Cards */}
@@ -61,7 +61,7 @@ export default function ServicesPage() {
               </div>
               <div>
                 <span className="text-xs font-bold text-slate-900 block">Materials Comparison Matrix</span>
-                <span className="text-[11px] text-slate-500">HDPE vs Nylon vs SS316</span>
+                <span className="text-[11px] text-slate-500">HDPE vs Nylon vs Invisible Grills</span>
               </div>
             </Link>
 
@@ -166,7 +166,7 @@ export default function ServicesPage() {
                         <ArrowRight className="w-3.5 h-3.5 ml-1" />
                       </Link>
                       <a
-                        href={`https://wa.me/${businessInfo.whatsappNumber}?text=${encodeURIComponent(`Hi Ramana Safety Nets! I would like to inquire about ${service.title}.`)}`}
+                        href={`https://wa.me/${businessInfo.whatsappNumber}?text=${encodeURIComponent(`Hi Raghavi Enterprises! I would like to inquire about ${service.title}.`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center py-2.5 text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-700 rounded-xl transition-colors shadow-soft-sm"

@@ -9,7 +9,7 @@ export const buyerQuestions = [
   },
   {
     q: "3. What is the exact polymer or stainless steel grade?",
-    why: "Ensures authentic 100% virgin HDPE co-polymer or AISI 316 Marine Grade stainless steel rather than recycled, brittle materials."
+    why: "Ensures authentic 100% virgin HDPE co-polymer or high-tensile stainless steel rather than recycled, brittle materials."
   },
   {
     q: "4. What is the mesh aperture and twine/cable diameter?",
@@ -24,8 +24,8 @@ export const buyerQuestions = [
     why: "Crucial for scaffolding debris screens and facade wraps in high-density urban construction sites."
   },
   {
-    q: "7. Is the cable AISI 304 or 316, and is it marked/traceable?",
-    why: "316 Marine Grade contains 2-3% Molybdenum, critical to avoid pitting and rust in humid or coastal environments."
+    q: "7. Is the cable AISI rust-proof stainless steel, and is it marked/traceable?",
+    why: "High-Tensile Stainless Steel contains 2-3% Molybdenum, critical to avoid pitting and rust in humid or coastal environments."
   },
   {
     q: "8. What anchor type and substrate fixing method will be used?",
@@ -95,8 +95,8 @@ export const redFlags = [
     desc: "Unscrupulous vendors use low-grade monofilament fishing lines or recycled nylon that degrade within 6 to 12 months under direct sunlight."
   },
   {
-    title: "4. Claiming 'SS316' Without Documented Source",
-    desc: "Inferior zinc-plated or 202-grade wire ropes rust quickly in monsoon weather. Insist on authentic AISI 316 Marine Grade cables."
+    title: "4. Claiming 'Invisible Grill' Without Documented Source",
+    desc: "Inferior zinc-plated or 202-grade wire ropes rust quickly in monsoon weather. Insist on authentic high-tensile stainless steel cables."
   },
   {
     title: "5. Plastic Cable Ties Used as Primary Load-Bearing Anchors",
@@ -143,7 +143,7 @@ export const preInstallationWorkflow = [
   {
     step: 4,
     title: "System & Material Specification",
-    desc: "Select matching polymer grade (Garware HDPE vs Polyamide), cable core (SS316), mesh aperture, and anchor pattern."
+    desc: "Select matching polymer grade (Garware HDPE vs Polyamide), cable core (Invisible Grill), mesh aperture, and anchor pattern."
   },
   {
     step: 5,
@@ -158,7 +158,7 @@ export const preInstallationWorkflow = [
   {
     step: 7,
     title: "Precision Anchoring into Structural Substrate",
-    desc: "Drill 6mm anchor holes into solid RCC, insert 304/316 SS expansion hooks, and seal with weatherproof silicone."
+    desc: "Drill 6mm anchor holes into solid RCC, insert rust-proof stainless steel expansion hooks, and seal with weatherproof silicone."
   },
   {
     step: 8,

@@ -26,8 +26,8 @@ export default function GalleryPage() {
   return (
     <>
       <SEO
-        title="Project Gallery & Verified Installations in Bangalore"
-        description="Explore 37+ verified photos of balcony nets, pigeon nets, invisible grills, child safety nets, and sports nets installed across high-rise apartments in Bangalore."
+        title="Project Gallery & Real Installations in Hosapete, Ballari & Karnataka"
+        description="Explore 15 real on-site installation photos of balcony safety nets, pigeon nets, invisible grills, child safety nets, and cricket nets across Hosapete, Ballari, Hubballi, Bengaluru & Karnataka."
         canonicalUrl="/gallery"
       />
 
@@ -36,8 +36,8 @@ export default function GalleryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
             badgeText="Verified Portfolio"
-            title="Real Installation Projects Across Bangalore"
-            subtitle="Explore our gallery of completed residential balcony nets, invisible grills, pigeon barriers, and industrial safety installations."
+            title="Real Installation Projects Across Hosapete & Karnataka"
+            subtitle="Explore our curated gallery of 15 real residential balcony nets, invisible grills, pigeon barriers, and industrial safety net installations."
           />
 
           {/* Category Filter Pills */}

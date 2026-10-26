@@ -7,7 +7,7 @@ export const problemsPreventionData = [
   {
     problem: "Net sags or pulls out from wall anchors",
     rootCause: "Weak fasteners, plastic anchor plugs in hollow brick/plaster, or using plastic cable ties as primary structural fasteners.",
-    prevention: "Anchor directly into structural RCC concrete using AISI 304/316 stainless steel expansion bolts; verify substrate pull-out capacity."
+    prevention: "Anchor directly into structural RCC concrete using AISI rust-proof stainless steel expansion bolts; verify substrate pull-out capacity."
   },
   {
     problem: "Bird entry continues despite net installed",
@@ -32,7 +32,7 @@ export const problemsPreventionData = [
   {
     problem: "Cable rust staining / corrosion on invisible grills",
     rootCause: "Using 202 or low-grade 304 in coastal/humid areas, using chloride/acidic household cleaners, or damaged PVC coating trapping moisture.",
-    prevention: "Strictly specify authentic AISI 316 Marine Grade stainless steel with UV-resistant transparent nylon coating; clean with fresh water only."
+    prevention: "Strictly specify authentic high-tensile stainless steel with UV-resistant transparent nylon coating; clean with fresh water only."
   },
   {
     problem: "Net damage from welding sparks / hot-work",

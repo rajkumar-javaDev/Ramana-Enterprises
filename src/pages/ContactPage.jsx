@@ -15,8 +15,8 @@ export default function ContactPage() {
   return (
     <>
       <SEO
-        title="Contact Ramana Safety Nets Bangalore | Free Doorstep Survey"
-        description="Book a free on-site safety net measurement in Bangalore. Call +91 88844 42929 or WhatsApp us. Same-day inspection across Whitefield, HSR, Koramangala, and all areas."
+        title="Contact Raghavi Enterprises | Free Doorstep Safety Net Survey"
+        description={`Book a free on-site safety net measurement in Hosapete (Hospet), Ballari, Koppal, Hubballi, Bengaluru & all Karnataka. Call ${businessInfo.phone} or WhatsApp us.`}
         canonicalUrl="/contact"
       />
 
@@ -83,7 +83,7 @@ export default function ContactPage() {
                   Head Office & Workshop
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-950">
-                  Ramana Safety Nets Bangalore
+                  Raghavi Enterprises Bangalore
                 </h2>
               </div>
 
@@ -141,7 +141,7 @@ export default function ContactPage() {
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ramana Safety Nets Bangalore Map"
+                  title="Raghavi Enterprises Bangalore Map"
                 />
               </div>
             </div>

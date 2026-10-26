@@ -90,10 +90,10 @@ export const safetyClassification = [
     mainConcern: "Tension retention, flush deck anchors, active adult supervision"
   },
   {
-    family: "316 SS Invisible Grill",
+    family: "Invisible Grill",
     purpose: "Tensioned cable barrier for balconies & windows",
     canMarketAsFallProtection: "No (Balcony barrier; not an industrial fall arrest system)",
-    mainConcern: "Marine-grade SS316 wire, track rigidity, vertical orientation (no ladder effect)"
+    mainConcern: "High-tensile invisible grill wire, track rigidity, vertical orientation (no ladder effect)"
   }
 ];
 

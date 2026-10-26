@@ -5,8 +5,19 @@ import { ArrowRight, CheckCircle2, MessageCircle } from 'lucide-react';
 import { servicesData } from '../../data/servicesData';
 import { businessInfo } from '../../data/businessInfo';
 
+const homepageServiceSlugs = [
+  'nylon-safety-nets',
+  'balcony-safety-nets',
+  'children-safety-nets',
+  'pigeon-safety-nets',
+  'invisible-grills',
+  'duct-area-safety-nets'
+];
+
 const ServicesGrid = ({ limit, onOpenQuoteModal }) => {
-  const displayServices = limit ? servicesData.slice(0, limit) : servicesData;
+  const displayServices = limit
+    ? homepageServiceSlugs.map(slug => servicesData.find(s => s.slug === slug)).filter(Boolean).slice(0, limit)
+    : servicesData;
   const container = { hidden: { opacity: 0 }, show: { opacity: 1, transition: { staggerChildren: 0.1 } } };
   const item = { hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } };
 
@@ -22,7 +33,7 @@ const ServicesGrid = ({ limit, onOpenQuoteModal }) => {
           {displayServices.map((service) => (
             <motion.div key={service.slug} variants={item} className="bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl transition-shadow duration-300 border border-slate-100 group flex flex-col h-full">
               <div className="relative rounded-xl overflow-hidden mb-6 aspect-video">
-                <img src={service.image} alt={`${service.title} by Ramana Safety Nets Bangalore`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                <img src={service.image} alt={`${service.title} by Raghavi Enterprises Bangalore`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-300"></div>
               </div>
               <div className="flex-1 flex flex-col">

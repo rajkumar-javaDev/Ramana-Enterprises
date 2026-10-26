@@ -4,7 +4,7 @@ export const testimonialsData = [
     name: "Priya Sharma",
     location: "Whitefield, Bangalore",
     rating: 5,
-    text: "Ramana Safety Nets installed balcony safety nets in my 14th floor apartment. The quality is excellent - you can barely see the nets but I feel completely safe with my 2-year-old now. Installation was done in under 2 hours. Highly recommended!",
+    text: "Raghavi Enterprises installed balcony safety nets in my 14th floor apartment. The quality is excellent - you can barely see the nets but I feel completely safe with my 2-year-old now. Installation was done in under 2 hours. Highly recommended!",
     service: "Balcony Safety Nets",
     avatar: "PS"
   },
@@ -13,7 +13,7 @@ export const testimonialsData = [
     name: "Rajesh Kumar",
     location: "HSR Layout, Bangalore",
     rating: 5,
-    text: "We had a serious pigeon problem in our ventilation shafts. Ramana Safety Nets solved it completely with their translucent nets. No more bird droppings, no more health concerns. Professional team and great after-sales support.",
+    text: "We had a serious pigeon problem in our ventilation shafts. Raghavi Enterprises solved it completely with their translucent nets. No more bird droppings, no more health concerns. Professional team and great after-sales support.",
     service: "Pigeon Nets",
     avatar: "RK"
   },
@@ -22,7 +22,7 @@ export const testimonialsData = [
     name: "Ananya Reddy",
     location: "Koramangala, Bangalore",
     rating: 5,
-    text: "Got invisible grills installed for our entire apartment. The 316 SS quality is premium and the view from our balcony is completely unobstructed. Worth every rupee! The team was punctual and very clean in their work.",
+    text: "Got invisible grills installed for our entire apartment. The Invisible Grill quality is premium and the view from our balcony is completely unobstructed. Worth every rupee! The team was punctual and very clean in their work.",
     service: "Invisible Grills",
     avatar: "AR"
   },
@@ -31,7 +31,7 @@ export const testimonialsData = [
     name: "Mohammed Fazil",
     location: "Electronic City, Bangalore",
     rating: 5,
-    text: "Ramana Safety Nets installed construction safety nets for our 8-story building project. They are IS certified and the quality meets all safety compliance standards. Very reliable partner for construction safety.",
+    text: "Raghavi Enterprises installed construction safety nets for our 8-story building project. They are IS certified and the quality meets all safety compliance standards. Very reliable partner for construction safety.",
     service: "Construction Nets",
     avatar: "MF"
   },

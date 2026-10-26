@@ -150,7 +150,7 @@ export default function FAQPage() {
               Call {businessInfo.phone}
             </a>
             <a
-              href={`https://wa.me/${businessInfo.whatsappNumber}?text=${encodeURIComponent('Hi Ramana Safety Nets! I have a question regarding safety net installation.')}`}
+              href={`https://wa.me/${businessInfo.whatsappNumber}?text=${encodeURIComponent('Hi Raghavi Enterprises! I have a question regarding safety net installation.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-5 py-3 bg-emerald-600 text-white rounded-2xl text-xs font-bold hover:bg-emerald-700 transition-all shadow-soft-sm"

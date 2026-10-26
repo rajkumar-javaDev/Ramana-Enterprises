@@ -243,7 +243,8 @@ export default function LocationDetailPage() {
                 <div className="relative h-48 overflow-hidden bg-slate-100">
                   <img
                     src={service.image}
-                    alt={`${service.title} in ${location.name} - Raghavi Enterprises`}
+                    alt={`${service.title} Installation in ${location.name} Apartment`}
+                    title={`${service.title} ${location.name}`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
@@ -254,7 +255,9 @@ export default function LocationDetailPage() {
                 <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
                   <div>
                     <h3 className="text-base sm:text-lg font-extrabold text-[#00274c] mb-1 group-hover:text-[#21893c] transition-colors">
-                      {service.title} in {location.name}
+                      <Link to={`/${service.slug}-${location.slug === 'hosapete' ? 'hospet' : location.slug}`}>
+                        {service.title} in {location.name}
+                      </Link>
                     </h3>
                     <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
                       {service.shortDescription}
@@ -262,10 +265,10 @@ export default function LocationDetailPage() {
                   </div>
                   <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
                     <Link
-                      to={`/services/${service.slug}`}
+                      to={`/${service.slug}-${location.slug === 'hosapete' ? 'hospet' : location.slug}`}
                       className="inline-flex items-center text-xs font-bold text-[#054a91] hover:text-[#21893c] transition-colors"
                     >
-                      <span>Specs & Photos</span>
+                      <span>View {location.name.split(' ')[0]} Page</span>
                       <ArrowRight className="w-3.5 h-3.5 ml-1" />
                     </Link>
                     <button

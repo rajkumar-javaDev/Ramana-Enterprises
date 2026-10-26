@@ -15,6 +15,7 @@ import MaterialSpecs from '../components/sections/MaterialSpecs';
 import { priorityTargetLocations, coreServiceKeywords } from '../data/locationsData';
 import { servicesData } from '../data/servicesData';
 import { businessInfo } from '../data/businessInfo';
+import { prioritySeoUrlGroups } from '../data/seoPagesData';
 
 export default function HomePage() {
   const { onOpenQuoteModal } = useOutletContext();
@@ -167,20 +168,46 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* High-Intent Search Keywords Bar */}
-          <div className="pt-1">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400 text-center mb-2.5">
-              Top Searched Services in Hosapete, Hampi, Toranagallu, Ballari, Koppal, Hubballi, Dharwad & Bengaluru
-            </p>
-            <div className="flex flex-wrap justify-center gap-1.5">
-              {coreServiceKeywords.map((kw, i) => (
-                <span
-                  key={i}
-                  className="px-2.5 py-1 bg-white border border-slate-200 rounded-lg text-[11px] font-semibold text-slate-600"
-                >
-                  {kw}
-                </span>
-              ))}
+          {/* High-Intent SEO Landing Pages Bar */}
+          <div className="pt-2 space-y-4">
+            <div>
+              <p className="text-[11px] font-extrabold uppercase tracking-wider text-[#00274c] text-center mb-2.5">
+                Priority Hospet Safety Net & Invisible Grill Services (Click for Local Specs & Price)
+              </p>
+              <div className="flex flex-wrap justify-center gap-1.5">
+                {prioritySeoUrlGroups.mainHospetServices.map((item) => (
+                  <Link
+                    key={item.slug}
+                    to={`/${item.slug}`}
+                    className="px-2.5 py-1 bg-white hover:bg-[#00274c] border border-slate-200 rounded-lg text-[11px] font-bold text-slate-700 hover:text-white transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <p className="text-[11px] font-extrabold uppercase tracking-wider text-[#21893c] text-center mb-2.5">
+                Nearby Towns Around Hosapete, &ldquo;Near Me&rdquo; Searches, Price Guides & Comparisons
+              </p>
+              <div className="flex flex-wrap justify-center gap-1.5">
+                {[
+                  ...prioritySeoUrlGroups.nearbyLocationServicePages,
+                  ...prioritySeoUrlGroups.nearMeHospetPages.slice(0, 7),
+                  ...prioritySeoUrlGroups.highSearchIntentPages,
+                  ...prioritySeoUrlGroups.comparisonPages,
+                  ...prioritySeoUrlGroups.informationalPages
+                ].map((item) => (
+                  <Link
+                    key={item.slug}
+                    to={`/${item.slug}`}
+                    className="px-2.5 py-1 bg-white hover:bg-[#21893c] border border-slate-200 rounded-lg text-[11px] font-semibold text-slate-600 hover:text-white transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </div>

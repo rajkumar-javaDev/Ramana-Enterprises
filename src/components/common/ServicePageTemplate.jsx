@@ -18,14 +18,24 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
   if (!service) return null;
 
   const manifestData = serviceImagesManifest[service.slug] || serviceImagesManifest[service.id] || {};
+  const singularSlug = service.slug.replace(/-nets$/, '-net');
   const heroImgObj = {
-    url: service.image,
-    thumbUrl: service.image,
-    alt: `${service.title} in Hosapete & Karnataka`,
+    url: `/assets/seo/${singularSlug}-hospet.webp`,
+    thumbUrl: `/assets/seo/${singularSlug}-hospet.webp`,
+    alt: `${service.title} Installation in Hospet Apartment`,
+    title: `${service.title} Hospet`,
     index: 0
   };
   const galleryImages = (manifestData.images && manifestData.images.length > 0)
-    ? manifestData.images.filter((img) => img.url !== service.image)
+    ? manifestData.images
+        .filter((img) => img.url !== service.image)
+        .map((img, idx) => ({
+          ...img,
+          url: `/assets/seo/${service.slug}-hospet-${idx + 1}.webp`,
+          thumbUrl: `/assets/seo/${service.slug}-hospet-${idx + 1}.webp`,
+          alt: `${service.title} Installation in Hospet Apartment - View ${idx + 1}`,
+          title: `${service.title} Hospet - Photo ${idx + 1}`
+        }))
     : [];
   const allLightboxImages = [heroImgObj, ...galleryImages];
   const currentDisplayImg = heroImgObj;
@@ -65,34 +75,61 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
   return (
     <>
       <SEO
-        title={`${service.title} in Hosapete (Hospet), Ballari, Koppal, Hubballi, Bengaluru & Karnataka`}
-        description={`${service.shortDescription} #1 ${service.title} installation in Hosapete, Hampi, Kamalapura, Munirabad, Toranagallu, Sandur, Gangavathi, Koppal, Ballari, Hubballi, Dharwad, Bengaluru & Karnataka. Call ${businessInfo.phone}.`}
+        title={`${service.title} in Hospet | Raghavi Enterprises`}
+        description={`Professional ${service.title} in Hospet. Child Safety Nets, Bird Nets, Invisible Grills, Fast Same-Day Installation & Affordable Prices.`.slice(0, 160)}
         keywords={serviceSeoKeywords.join(', ')}
         canonicalUrl={`/services/${service.slug}`}
+        image={currentDisplayImg.url}
         schema={{
           "@context": "https://schema.org",
-          "@type": "Service",
-          "name": `${service.title} in Hosapete, Ballari, Koppal, Hubballi, Bengaluru & Karnataka`,
-          "category": service.category || "Safety Netting",
-          "provider": {
-            "@type": "LocalBusiness",
-            "name": businessInfo.name,
-            "telephone": businessInfo.phone,
-            "image": `https://www.raghavisafetynets.com${currentDisplayImg.url}`,
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": businessInfo.address.street,
-              "addressLocality": "Hosapete (Hospet)",
-              "addressRegion": "Karnataka",
-              "postalCode": businessInfo.address.pincode,
-              "addressCountry": "IN"
-            }
-          },
-          "areaServed": popularLocations.map(l => ({
-            "@type": "City",
-            "name": l.name
-          })),
-          "description": service.shortDescription
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.raghavisafetynets.com" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.raghavisafetynets.com/services" },
+                { "@type": "ListItem", "position": 3, "name": service.title, "item": `https://www.raghavisafetynets.com/services/${service.slug}` }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "url": `https://www.raghavisafetynets.com${currentDisplayImg.url}`,
+              "caption": currentDisplayImg.alt,
+              "name": currentDisplayImg.title
+            },
+            {
+              "@type": "Service",
+              "name": `${service.title} Installation in Hospet`,
+              "category": service.category || "Safety Netting",
+              "provider": {
+                "@type": "LocalBusiness",
+                "name": businessInfo.name,
+                "telephone": businessInfo.phone,
+                "image": `https://www.raghavisafetynets.com${currentDisplayImg.url}`,
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": businessInfo.address.street,
+                  "addressLocality": "Hosapete (Hospet)",
+                  "addressRegion": "Karnataka",
+                  "postalCode": businessInfo.address.pincode,
+                  "addressCountry": "IN"
+                }
+              },
+              "areaServed": popularLocations.map(l => ({
+                "@type": "City",
+                "name": l.name
+              })),
+              "description": service.shortDescription
+            },
+            ...(service.faqs && service.faqs.length > 0 ? [{
+              "@type": "FAQPage",
+              "mainEntity": service.faqs.map(f => ({
+                "@type": "Question",
+                "name": f.question,
+                "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+              }))
+            }] : [])
+          ]
         }}
       />
 
@@ -123,7 +160,8 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
               >
                 <img
                   src={currentDisplayImg.url}
-                  alt={currentDisplayImg.alt || `${service.title} installation in Hosapete & Karnataka`}
+                  alt={currentDisplayImg.alt}
+                  title={currentDisplayImg.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="eager"
                   decoding="async"
@@ -168,7 +206,7 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
               </div>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#00274c] tracking-tight leading-tight">
-                {service.title} in <span className="text-[#21893c]">Hosapete, Ballari, Hubballi, Bengaluru & Karnataka</span>
+                {service.title} Installation in <span className="text-[#21893c]">Hospet</span>
               </h1>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
                 {service.fullDescription || service.shortDescription}
@@ -380,7 +418,8 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
                 >
                   <img
                     src={img.url}
-                    alt={img.alt || `${service.title} installation angle ${idx + 1}`}
+                    alt={img.alt || `${service.title} Installation in Hospet Apartment - Angle ${idx + 1}`}
+                    title={img.title || `${service.title} Hospet - Angle ${idx + 1}`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
@@ -514,19 +553,22 @@ export default function ServicePageTemplate({ service, onOpenQuoteModal }) {
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
-            {popularLocations.map(loc => (
-              <Link
-                key={loc.slug}
-                to={`/location/${loc.slug}`}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shadow-soft-sm ${
-                  loc.region === 'Hosapete Priority Zone'
-                    ? 'bg-[#00274c] text-white hover:bg-[#21893c]'
-                    : 'bg-slate-50 border border-slate-200 text-slate-700 hover:text-[#00274c] hover:border-blue-300'
-                }`}
-              >
-                {service.title} in {loc.name}
-              </Link>
-            ))}
+            {popularLocations.map(loc => {
+              const locSlugPart = loc.slug === 'hosapete' ? 'hospet' : loc.slug;
+              return (
+                <Link
+                  key={loc.slug}
+                  to={`/${service.slug}-${locSlugPart}`}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shadow-soft-sm ${
+                    loc.region === 'Hosapete Priority Zone'
+                      ? 'bg-[#00274c] text-white hover:bg-[#21893c]'
+                      : 'bg-slate-50 border border-slate-200 text-slate-700 hover:text-[#00274c] hover:border-blue-300'
+                  }`}
+                >
+                  {service.title} in {loc.name}
+                </Link>
+              );
+            })}
             <Link
               to="/locations"
               className="px-3.5 py-1.5 bg-[#21893c] text-white rounded-xl text-xs font-extrabold hover:bg-[#196d2f] transition-all"

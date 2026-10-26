@@ -9,83 +9,109 @@ const SEO = ({
   keywords,
   canonicalUrl,
   type = 'website',
-  image = '/assets/raghavi-logo.png',
+  image = '/assets/seo/balcony-safety-net-hospet.webp',
   schema
 }) => {
-  const siteTitle = `${title} | ${businessInfo.name} - Raghavi Safety Nets`;
+  const siteTitle = title && title.includes('Raghavi Enterprises')
+    ? title
+    : `${title} | ${businessInfo.name}`;
   const siteUrl = 'https://www.raghavisafetynets.com';
   const fullUrl = `${siteUrl}${canonicalUrl || ''}`;
   const metaDescription =
     description ||
-    `${businessInfo.name} (raghavisafetynets.com) - #1 Safety Nets & Invisible Grills in Hosapete (Hospet), Hampi, Kamalapura, Munirabad, Toranagallu, Sandur, Gangavathi, Koppal, Ballari, Hubballi, Dharwad, Bengaluru & Karnataka. Call ${businessInfo.phone}.`;
+    'Professional Balcony Safety Net Installation in Hospet. Child Safety Nets, Bird Nets, Invisible Grills, Fast Installation & Affordable Prices.';
 
   const locationNames = priorityTargetLocations.map((l) => l.name);
   const defaultKeywords = [
     ...coreServiceKeywords,
-    'Safety Nets in Hosapete',
-    'Safety Nets in Hospet',
-    'Balcony Safety Nets Hosapete',
-    'Pigeon Safety Nets Hosapete',
-    'Monkey Safety Nets Hampi Hosapete',
-    'Invisible Grills Hosapete Ballari',
-    'Safety Nets in Toranagallu JSW',
-    'Safety Nets in Ballari Bellary',
-    'Safety Nets in Koppal Gangavathi',
-    'Safety Nets in Hubballi Dharwad',
-    'Safety Nets in Bengaluru Bangalore',
-    ...locationNames.map((loc) => `Safety Nets in ${loc}`),
-    ...locationNames.slice(0, 16).map((loc) => `Pigeon Nets in ${loc}`),
-    ...locationNames.slice(0, 16).map((loc) => `Balcony Safety Nets in ${loc}`),
-    ...locationNames.slice(0, 16).map((loc) => `Invisible Grills in ${loc}`)
+    'Balcony Safety Nets in Hospet',
+    'Pigeon Safety Nets in Hospet',
+    'Invisible Grills in Hospet',
+    'Bird Spikes in Hospet',
+    'Monkey Safety Nets in Hampi Hospet',
+    'Children Safety Nets in Hospet',
+    'Safety Nets Near Me Hospet',
+    ...locationNames.slice(0, 14).map((loc) => `Balcony Safety Nets in ${loc}`),
+    ...locationNames.slice(0, 14).map((loc) => `Pigeon Nets in ${loc}`)
   ].join(', ');
 
   const metaKeywords = keywords ? `${keywords}, ${defaultKeywords}` : defaultKeywords;
 
   const defaultSchema = {
     '@context': 'https://schema.org',
-    '@type': 'HomeAndConstructionBusiness',
-    name: `${businessInfo.name} - Raghavi Safety Nets`,
-    alternateName: ['Raghavi Safety Nets', 'Raghavi Enterprises Hosapete', 'Raghavi Safety Nets Karnataka'],
-    image: `${siteUrl}/assets/raghavi-logo.png`,
-    '@id': siteUrl,
-    url: siteUrl,
-    telephone: businessInfo.phone,
-    email: businessInfo.email,
-    description: metaDescription,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: businessInfo.address.street,
-      addressLocality: 'Hosapete (Hospet)',
-      addressRegion: 'Karnataka',
-      postalCode: businessInfo.address.pincode,
-      addressCountry: 'IN'
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: businessInfo.address.latitude,
-      longitude: businessInfo.address.longitude
-    },
-    openingHoursSpecification: {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-      opens: '07:00',
-      closes: '21:00'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1250',
-      bestRating: '5'
-    },
-    priceRange: '₹₹',
-    areaServed: priorityTargetLocations.map((loc) => ({
-      '@type': 'City',
-      name: loc.name,
-      containedInPlace: {
-        '@type': 'State',
-        name: 'Karnataka'
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': `${siteUrl}/#organization`,
+        name: businessInfo.name,
+        alternateName: 'Raghavi Safety Nets',
+        url: siteUrl,
+        logo: {
+          '@type': 'ImageObject',
+          url: `${siteUrl}/assets/raghavi-logo.png`
+        },
+        contactPoint: {
+          '@type': 'ContactPoint',
+          telephone: businessInfo.phone,
+          contactType: 'customer service',
+          areaServed: 'IN',
+          availableLanguage: ['English', 'Kannada', 'Hindi', 'Telugu']
+        }
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${siteUrl}/#website`,
+        url: siteUrl,
+        name: `${businessInfo.name} - Safety Nets & Invisible Grills`,
+        publisher: {
+          '@id': `${siteUrl}/#organization`
+        }
+      },
+      {
+        '@type': 'LocalBusiness',
+        '@id': `${siteUrl}/#localbusiness`,
+        name: `${businessInfo.name} - Raghavi Safety Nets`,
+        image: `${siteUrl}${image}`,
+        url: fullUrl,
+        telephone: businessInfo.phone,
+        email: businessInfo.email,
+        description: metaDescription,
+        priceRange: '₹₹',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: businessInfo.address.street,
+          addressLocality: 'Hosapete (Hospet)',
+          addressRegion: 'Karnataka',
+          postalCode: businessInfo.address.pincode,
+          addressCountry: 'IN'
+        },
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: businessInfo.address.latitude,
+          longitude: businessInfo.address.longitude
+        },
+        openingHoursSpecification: {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+          opens: '07:00',
+          closes: '21:00'
+        },
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: '4.9',
+          reviewCount: '1250',
+          bestRating: '5'
+        },
+        areaServed: priorityTargetLocations.map((loc) => ({
+          '@type': 'City',
+          name: loc.name,
+          containedInPlace: {
+            '@type': 'State',
+            name: 'Karnataka'
+          }
+        }))
       }
-    }))
+    ]
   };
 
   return (
@@ -113,7 +139,7 @@ const SEO = ({
 
       {/* Geo */}
       <meta name="geo.region" content="IN-KA" />
-      <meta name="geo.placename" content="Hosapete, Vijayanagara, Ballari, Koppal, Hubballi, Bengaluru, Karnataka" />
+      <meta name="geo.placename" content="Hosapete (Hospet), Hampi, Ballari, Koppal, Gangavathi, Karnataka" />
       <meta name="geo.position" content={`${businessInfo.address.latitude};${businessInfo.address.longitude}`} />
       <meta name="ICBM" content={`${businessInfo.address.latitude}, ${businessInfo.address.longitude}`} />
 

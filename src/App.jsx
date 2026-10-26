@@ -27,6 +27,7 @@ const GalleryPage = lazy(() => import('./pages/GalleryPage'));
 const FAQPage = lazy(() => import('./pages/FAQPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
+const SeoLandingPage = lazy(() => import('./pages/SeoLandingPage'));
 
 // Master Knowledge Base Pages
 const StandardsSafetyPage = lazy(() => import('./pages/StandardsSafetyPage'));
@@ -143,6 +144,9 @@ export default function App() {
           <Route path="faq" element={<FAQPage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="contact" element={<ContactPage />} />
+
+          {/* Root-Level SEO Landing Pages (/balcony-safety-nets-hospet, /pigeon-net-near-me-hospet, comparisons, guides, etc.) */}
+          <Route path=":seoSlug" element={<SeoLandingPage />} />
 
           {/* Fallback */}
           <Route path="*" element={<HomePage />} />

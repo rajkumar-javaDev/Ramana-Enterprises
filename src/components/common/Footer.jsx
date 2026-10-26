@@ -4,6 +4,7 @@ import { Phone, Mail, MapPin, Clock, ArrowUpRight, MessageCircle, Globe } from '
 import { businessInfo } from '../../data/businessInfo';
 import { servicesData } from '../../data/servicesData';
 import { priorityTargetLocations } from '../../data/locationsData';
+import { prioritySeoUrlGroups } from '../../data/seoPagesData';
 
 const Footer = () => {
   const topLocations = priorityTargetLocations.slice(0, 15);
@@ -149,20 +150,44 @@ const Footer = () => {
         </div>
 
         {/* Full Regional SEO Directory Links */}
-        <div className="py-5 border-t border-blue-200/60">
-          <p className="text-[11px] font-extrabold uppercase tracking-wider text-[#00274c] mb-2.5">
-            Service Coverage Across Hosapete (Hospet), Vijayanagara, Ballari, Koppal, Hubballi, Bengaluru & Karnataka:
-          </p>
-          <div className="flex flex-wrap gap-x-3 gap-y-1.5">
-            {priorityTargetLocations.map((loc) => (
-              <Link
-                key={loc.slug}
-                to={`/location/${loc.slug}`}
-                className="text-[11px] text-slate-600 hover:text-[#21893c] hover:underline transition-colors"
-              >
-                Safety Nets {loc.name}
-              </Link>
-            ))}
+        <div className="py-5 border-t border-blue-200/60 space-y-4">
+          <div>
+            <p className="text-[11px] font-extrabold uppercase tracking-wider text-[#00274c] mb-2">
+              Hospet Priority Services & &ldquo;Near Me&rdquo; Quick Links:
+            </p>
+            <div className="flex flex-wrap gap-x-3 gap-y-1.5">
+              {[...prioritySeoUrlGroups.mainHospetServices, ...prioritySeoUrlGroups.nearMeHospetPages.slice(0, 6)].map((item) => (
+                <Link
+                  key={item.slug}
+                  to={`/${item.slug}`}
+                  className="text-[11px] text-slate-600 hover:text-[#21893c] hover:underline transition-colors"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <p className="text-[11px] font-extrabold uppercase tracking-wider text-[#00274c] mb-2">
+              Nearby Service Areas, Pricing, Comparisons & Guides:
+            </p>
+            <div className="flex flex-wrap gap-x-3 gap-y-1.5">
+              {[
+                ...prioritySeoUrlGroups.nearbyLocationServicePages,
+                ...prioritySeoUrlGroups.highSearchIntentPages,
+                ...prioritySeoUrlGroups.comparisonPages,
+                ...prioritySeoUrlGroups.informationalPages
+              ].map((item) => (
+                <Link
+                  key={item.slug}
+                  to={`/${item.slug}`}
+                  className="text-[11px] text-slate-600 hover:text-[#00274c] hover:underline transition-colors"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
 
